@@ -6,3 +6,525 @@
 2021-06-08 20:30:31,738 INFO lesson2 [main] Открываем сайт otus.ru
 2021-06-08 20:30:31,836 INFO lesson2 [main] Проверяем, что сайт открыт
 2021-06-08 20:30:31,838 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:14:13,141 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:14:24,486 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:14:24,599 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:14:24,851 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:15:16,933 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:15:24,614 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:15:25,810 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:15:26,737 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:17:31,895 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:17:38,178 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:17:38,360 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:17:39,824 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:22:57,566 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:23:04,919 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:23:06,242 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:23:06,847 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:29:59,731 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:30:07,066 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:30:08,242 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:30:16,701 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:31:34,783 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:31:40,648 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:31:40,747 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:31:49,790 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:36:34,389 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:36:40,792 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:36:40,920 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:36:49,507 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:39:14,370 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:39:20,594 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:39:20,678 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:39:30,923 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:40:18,363 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:40:25,280 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:40:26,940 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:40:34,719 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:41:30,079 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:41:36,067 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:41:36,162 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:41:44,976 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:47:06,638 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:47:14,126 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:47:14,921 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:47:22,220 INFO lesson2 [main] Вконтакте
+Facebook
+ОК
+Дзен
+YouTube
+Канал в Telegram
+Группа в Telegram
+2021-06-20 12:47:22,222 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:49:43,085 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:49:49,828 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:49:49,916 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:49:56,908 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:50:34,836 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:50:40,931 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:50:41,022 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:50:48,296 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:51:32,956 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:51:40,152 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:51:40,231 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:51:48,851 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:52:37,957 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:52:43,645 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:52:43,737 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:52:52,558 INFO lesson2 [main] Социальные сети
+Вконтакте
+Facebook
+ОК
+Дзен
+YouTube
+Канал в Telegram
+Группа в Telegram
+Реквизиты
+ООО «Отус онлайн-образование»
+ИНН 9705100963
+КПП 771401001
+ОГРН 1177746618576
+ОКПО 16102045
+ОКАТО 4528650000
+
+АО «АЛЬФА-БАНК»
+Р/С 40702810601300013780
+К/С 30101810200000000593
+БИК 044525593
+2021-06-20 12:52:52,561 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:54:45,050 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:54:52,550 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:54:52,629 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:55:00,954 INFO lesson2 [main] 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
+2021-06-20 12:55:00,956 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:57:12,779 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:57:19,300 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:57:20,114 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:57:29,160 INFO lesson2 [main] 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
+2021-06-20 12:57:29,212 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 12:58:28,352 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 12:58:34,207 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 12:58:34,317 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 12:58:43,932 INFO lesson2 [main] 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
+2021-06-20 12:58:43,998 INFO lesson2 [main] Проверяем.что адрес равен: 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
+2021-06-20 12:58:43,998 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:07:30,682 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:07:37,869 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:07:38,992 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 13:07:46,941 INFO lesson2 [main] 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
+2021-06-20 13:07:47,212 INFO lesson2 [main] Проверяем.что адрес равен: 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
+2021-06-20 13:07:47,214 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:08:41,605 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:08:48,647 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:08:48,725 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 13:08:49,197 INFO lesson2 [main] Разварачиваем окно  на весь экран
+2021-06-20 13:08:49,348 INFO lesson2 [main] (-8, -8)
+2021-06-20 13:08:49,351 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:10:41,106 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:10:47,964 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:10:48,062 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 13:10:48,550 INFO lesson2 [main] Разварачиваем окно  на весь экран(1382, 744)
+2021-06-20 13:10:48,552 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:11:49,698 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:11:55,949 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:11:56,048 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 13:11:57,873 INFO lesson2 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
+2021-06-20 13:11:57,875 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:17:46,882 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:17:54,077 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:17:55,345 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 13:18:02,802 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:18:02,883 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:19:15,686 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:19:21,412 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:19:21,519 INFO lesson2 [main] Проверяем, что сайт otus открыт
+2021-06-20 13:19:29,015 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:19:29,226 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:19:29,229 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:23:23,232 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:23:30,189 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:23:32,551 INFO lesson2 [main] Проверяем, что сайт otus открыт
+2021-06-20 13:23:40,423 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:23:40,496 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:23:41,401 INFO lesson2 [main] 
+2021-06-20 13:23:41,403 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:33:09,083 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:33:14,962 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:33:15,062 INFO lesson2 [main] Проверяем, что сайт otus открыт
+2021-06-20 13:33:23,931 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:33:24,073 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:33:30,029 INFO lesson2 [main] []
+2021-06-20 13:33:30,032 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:38:01,515 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:38:08,689 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:38:08,768 INFO lesson2 [main] Проверяем, что сайт otus открыт
+2021-06-20 13:38:16,083 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:38:16,151 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:38:17,173 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:39:06,423 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:39:12,298 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:39:12,376 INFO lesson2 [main] Проверяем, что сайт otus открыт
+2021-06-20 13:39:19,972 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:39:20,100 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:39:21,097 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:40:09,329 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:40:15,261 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:40:15,392 INFO lesson2 [main] Проверяем, что сайт otus открыт
+2021-06-20 13:40:22,362 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:40:22,618 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:40:23,554 INFO lesson2 [main] false
+2021-06-20 13:40:23,557 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:41:23,806 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:41:31,150 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:41:31,244 INFO lesson2 [main] Проверяем, что сайт otus открыт
+2021-06-20 13:41:38,991 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:41:39,110 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:41:45,133 INFO lesson2 [main] true
+2021-06-20 13:41:45,135 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:44:05,896 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:44:11,823 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 13:44:11,994 INFO lesson2 [main] Проверяем, что сайт otus открыт
+2021-06-20 13:44:21,465 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:44:21,546 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:44:27,541 INFO lesson2 [main] Проверяем результат поиска, найденные номера:[]
+2021-06-20 13:44:27,544 INFO lesson2 [main] true
+2021-06-20 13:44:27,548 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:46:22,459 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:46:28,791 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:46:28,859 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:46:34,717 INFO lesson2 [main] Проверяем результат поиска, найденные номера:[]
+2021-06-20 13:46:34,719 INFO lesson2 [main] true
+2021-06-20 13:46:34,721 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:51:05,767 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:51:12,843 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:51:12,979 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:51:19,026 INFO lesson2 [main] Проверяем результат поиска, найденные номера:[]
+2021-06-20 13:51:19,028 INFO lesson2 [main] true
+2021-06-20 13:51:19,031 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:52:10,992 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:52:17,155 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:52:17,269 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:52:17,949 INFO lesson2 [main] Проверяем результат поиска, найденные номера:[[[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']], [[ChromeDriver: chrome on WINDOWS (951a1590cc675474409a43ff1642978c)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[@class='area-code']]]
+2021-06-20 13:52:17,951 INFO lesson2 [main] false
+2021-06-20 13:52:17,954 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:53:40,132 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:53:48,203 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:53:48,285 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:53:49,673 INFO lesson2 [main] Проверяем результат поиска, найденные номера:[[[ChromeDriver: chrome on WINDOWS (b5982fb957a8bb6fc3d5fccea5b268af)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[contains(text(),'97')]], [[ChromeDriver: chrome on WINDOWS (b5982fb957a8bb6fc3d5fccea5b268af)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[contains(text(),'97')]], [[ChromeDriver: chrome on WINDOWS (b5982fb957a8bb6fc3d5fccea5b268af)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[contains(text(),'97')]], [[ChromeDriver: chrome on WINDOWS (b5982fb957a8bb6fc3d5fccea5b268af)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[contains(text(),'97')]], [[ChromeDriver: chrome on WINDOWS (b5982fb957a8bb6fc3d5fccea5b268af)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[contains(text(),'97')]], [[ChromeDriver: chrome on WINDOWS (b5982fb957a8bb6fc3d5fccea5b268af)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[contains(text(),'97')]], [[ChromeDriver: chrome on WINDOWS (b5982fb957a8bb6fc3d5fccea5b268af)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[contains(text(),'97')]], [[ChromeDriver: chrome on WINDOWS (b5982fb957a8bb6fc3d5fccea5b268af)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[contains(text(),'97')]], [[ChromeDriver: chrome on WINDOWS (b5982fb957a8bb6fc3d5fccea5b268af)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[contains(text(),'97')]]]
+2021-06-20 13:53:49,675 INFO lesson2 [main] false
+2021-06-20 13:53:49,678 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 13:58:16,438 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 13:58:24,098 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 13:58:24,162 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 13:58:26,350 INFO lesson2 [main] Проверяем результат поиска, найденные номера:[[ChromeDriver: chrome on WINDOWS (03724c3c3bd9ce7b97f51fe9cb7f0460)] -> xpath: //div[@class='numbers-slider-wrap']//div[@class='phone-number-block']//span[contains(text(),'97')]]
+2021-06-20 13:58:26,354 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:01:12,529 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:01:19,537 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:01:19,643 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:01:20,444 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 14:01:20,447 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:02:41,757 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:02:48,078 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:02:48,349 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:02:49,174 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 14:02:49,176 INFO lesson2 [main] -1
+2021-06-20 14:02:49,178 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:04:12,822 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:04:19,351 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:04:19,415 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:04:20,299 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 14:04:20,300 INFO lesson2 [main] 5
+2021-06-20 14:04:20,302 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:05:01,549 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:05:08,052 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:05:08,125 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:05:10,459 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 14:05:10,464 INFO lesson2 [main] 29
+2021-06-20 14:05:10,505 INFO lesson2 [main] 293-18-97
+2021-06-20 14:05:10,550 INFO lesson2 [main] 977
+2021-06-20 14:05:10,597 INFO lesson2 [main] 145-23-97
+2021-06-20 14:05:10,638 INFO lesson2 [main] 291-44-97
+2021-06-20 14:05:10,681 INFO lesson2 [main] 581-30-97
+2021-06-20 14:05:10,724 INFO lesson2 [main] 532-86-97
+2021-06-20 14:05:10,876 INFO lesson2 [main] 714-64-97
+2021-06-20 14:05:10,915 INFO lesson2 [main] 977
+2021-06-20 14:05:11,072 INFO lesson2 [main] 317-14-97
+2021-06-20 14:05:11,130 INFO lesson2 [main] 950-82-97
+2021-06-20 14:05:11,192 INFO lesson2 [main] 977
+2021-06-20 14:05:11,242 INFO lesson2 [main] 426-85-97
+2021-06-20 14:05:11,305 INFO lesson2 [main] 714-43-97
+2021-06-20 14:05:11,343 INFO lesson2 [main] 977
+2021-06-20 14:05:11,388 INFO lesson2 [main] 465-48-97
+2021-06-20 14:05:11,425 INFO lesson2 [main] 298-61-97
+2021-06-20 14:05:11,467 INFO lesson2 [main] 290-89-97
+2021-06-20 14:05:11,509 INFO lesson2 [main] 276-86-97
+2021-06-20 14:05:11,582 INFO lesson2 [main] 381-34-97
+2021-06-20 14:05:11,667 INFO lesson2 [main] 712-18-97
+2021-06-20 14:05:11,858 INFO lesson2 [main] 932-65-97
+2021-06-20 14:05:14,007 INFO lesson2 [main] 593-45-97
+2021-06-20 14:05:14,062 INFO lesson2 [main] 914-74-97
+2021-06-20 14:05:14,141 INFO lesson2 [main] 955-46-97
+2021-06-20 14:05:14,223 INFO lesson2 [main] 782-18-97
+2021-06-20 14:05:14,323 INFO lesson2 [main] 293-75-97
+2021-06-20 14:05:14,413 INFO lesson2 [main] 723-61-97
+2021-06-20 14:05:14,537 INFO lesson2 [main] 977
+2021-06-20 14:05:14,618 INFO lesson2 [main] 784-28-97
+2021-06-20 14:05:14,638 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:07:43,257 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:07:50,163 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:07:50,383 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:07:57,524 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:08:25,574 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:08:32,571 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:08:32,671 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:08:39,113 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:09:32,650 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:09:39,585 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:09:39,669 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:09:40,500 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 14:09:40,501 INFO lesson2 [main] 5
+2021-06-20 14:09:40,547 INFO lesson2 [main] 977
+2021-06-20 14:09:40,606 INFO lesson2 [main] 977
+2021-06-20 14:09:40,766 INFO lesson2 [main] 977
+2021-06-20 14:09:40,804 INFO lesson2 [main] 977
+2021-06-20 14:09:40,846 INFO lesson2 [main] 293-18-97
+2021-06-20 14:09:40,862 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:10:35,682 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:10:42,456 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:10:42,685 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:10:43,633 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 14:10:43,634 INFO lesson2 [main] 1
+2021-06-20 14:10:43,674 INFO lesson2 [main] 336-97-86
+2021-06-20 14:10:43,676 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:12:16,540 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:12:24,237 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:12:24,401 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:12:26,955 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 14:12:26,957 INFO lesson2 [main] 29
+2021-06-20 14:12:27,000 INFO lesson2 [main] 950-82-97
+2021-06-20 14:12:27,041 INFO lesson2 [main] 581-30-97
+2021-06-20 14:12:27,080 INFO lesson2 [main] 714-64-97
+2021-06-20 14:12:27,251 INFO lesson2 [main] 955-46-97
+2021-06-20 14:12:27,539 INFO lesson2 [main] 977
+2021-06-20 14:12:27,598 INFO lesson2 [main] 784-28-97
+2021-06-20 14:12:27,647 INFO lesson2 [main] 291-44-97
+2021-06-20 14:12:27,768 INFO lesson2 [main] 714-43-97
+2021-06-20 14:12:27,821 INFO lesson2 [main] 593-45-97
+2021-06-20 14:12:27,946 INFO lesson2 [main] 977
+2021-06-20 14:12:28,130 INFO lesson2 [main] 465-48-97
+2021-06-20 14:12:30,188 INFO lesson2 [main] 782-18-97
+2021-06-20 14:12:30,331 INFO lesson2 [main] 290-89-97
+2021-06-20 14:12:30,605 INFO lesson2 [main] 298-61-97
+2021-06-20 14:12:30,687 INFO lesson2 [main] 977
+2021-06-20 14:12:30,753 INFO lesson2 [main] 145-23-97
+2021-06-20 14:12:30,818 INFO lesson2 [main] 712-18-97
+2021-06-20 14:12:30,872 INFO lesson2 [main] 276-86-97
+2021-06-20 14:12:30,931 INFO lesson2 [main] 293-18-97
+2021-06-20 14:12:31,026 INFO lesson2 [main] 723-61-97
+2021-06-20 14:12:31,088 INFO lesson2 [main] 532-86-97
+2021-06-20 14:12:31,151 INFO lesson2 [main] 977
+2021-06-20 14:12:31,208 INFO lesson2 [main] 426-85-97
+2021-06-20 14:12:31,313 INFO lesson2 [main] 977
+2021-06-20 14:12:31,444 INFO lesson2 [main] 317-14-97
+2021-06-20 14:12:31,493 INFO lesson2 [main] 932-65-97
+2021-06-20 14:12:31,570 INFO lesson2 [main] 293-75-97
+2021-06-20 14:12:31,634 INFO lesson2 [main] 914-74-97
+2021-06-20 14:12:31,686 INFO lesson2 [main] 381-34-97
+2021-06-20 14:12:31,688 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:13:50,807 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:13:57,582 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:13:57,679 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:13:58,596 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 14:13:58,636 INFO lesson2 [main] 943-97-11
+2021-06-20 14:13:58,638 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:15:02,378 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:15:09,744 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:15:09,839 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:15:10,723 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 14:15:10,765 INFO lesson2 [main] 977
+2021-06-20 14:15:10,866 INFO lesson2 [main] 977
+2021-06-20 14:15:10,942 INFO lesson2 [main] 977
+2021-06-20 14:15:10,986 INFO lesson2 [main] 977
+2021-06-20 14:15:11,025 INFO lesson2 [main] 977
+2021-06-20 14:15:11,065 INFO lesson2 [main] 977
+2021-06-20 14:15:11,110 INFO lesson2 [main] 977
+2021-06-20 14:15:11,160 INFO lesson2 [main] 977
+2021-06-20 14:15:11,204 INFO lesson2 [main] 977
+2021-06-20 14:15:11,253 INFO lesson2 [main] 977
+2021-06-20 14:15:11,299 INFO lesson2 [main] 977
+2021-06-20 14:15:11,649 INFO lesson2 [main] 977
+2021-06-20 14:15:11,762 INFO lesson2 [main] 977
+2021-06-20 14:15:12,209 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:16:11,991 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:16:18,641 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 14:16:18,746 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 14:16:19,611 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 14:16:19,655 INFO lesson2 [main] 997-76-59
+2021-06-20 14:16:19,704 INFO lesson2 [main] 997-96-32
+2021-06-20 14:16:19,847 INFO lesson2 [main] 997-69-71
+2021-06-20 14:16:19,891 INFO lesson2 [main] 997-44-18
+2021-06-20 14:16:19,893 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:22:03,385 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:22:10,519 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:22:10,601 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:22:15,133 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:24:43,573 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:24:50,917 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:24:52,863 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:24:55,908 INFO lesson2 [main] открыт раздел FAQ
+2021-06-20 14:25:01,057 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:30:16,641 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:30:23,749 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:30:23,989 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:30:27,175 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:30:32,462 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:31:37,754 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:31:43,826 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:31:43,920 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:31:47,653 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:31:49,351 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:33:55,572 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:34:02,758 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:34:02,846 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:34:06,938 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:34:07,383 INFO lesson2 [main] Нажимаем "Где посмотреть программу интересующего курса?"
+2021-06-20 14:34:08,748 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:37:14,330 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:37:21,568 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:37:23,508 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:37:27,708 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:37:28,008 INFO lesson2 [main] Нажимаем "Где посмотреть программу интересующего курса?"
+2021-06-20 14:37:29,679 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:41:37,700 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:42:32,700 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:42:32,770 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:42:36,839 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:42:42,000 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:43:15,742 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:43:21,384 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:43:21,479 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:43:27,214 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:43:32,408 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:46:11,387 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:46:19,049 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:46:19,350 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:46:24,061 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:46:25,225 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:48:04,479 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:48:11,025 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:48:12,941 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:48:17,522 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:48:22,717 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:49:14,957 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:50:48,480 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:50:55,010 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:50:55,181 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:51:00,636 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:51:06,136 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:51:25,829 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:51:32,362 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:51:34,005 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:51:38,866 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:51:44,018 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:52:51,177 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:52:57,735 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:52:57,843 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:53:03,343 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:53:08,494 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:54:59,078 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:55:06,537 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:55:06,741 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:55:10,685 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:55:16,025 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:58:07,791 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 14:58:14,018 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 14:58:14,360 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 14:58:19,552 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 14:58:24,705 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 14:59:58,539 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:00:04,411 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:00:04,590 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:00:09,166 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 15:00:14,511 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:01:36,639 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:01:42,211 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:01:42,371 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:01:47,658 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 15:01:52,818 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:02:44,082 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:02:51,896 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:02:51,990 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:02:56,814 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 15:02:58,535 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:04:29,797 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:04:35,603 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:04:35,679 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:04:41,292 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 15:04:41,787 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:07:26,189 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:07:31,471 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:07:31,628 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:07:37,229 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 15:07:37,310 INFO lesson2 [main] Нажимаем "Где посмотреть программу интересующего курса?"
+2021-06-20 15:07:44,403 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:10:28,043 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:10:34,399 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:10:34,643 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:10:39,759 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 15:10:39,854 INFO lesson2 [main] Нажимаем "Где посмотреть программу интересующего курса?"
+2021-06-20 15:10:41,821 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:12:55,480 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:13:01,138 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:13:01,222 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:13:06,678 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 15:13:06,745 INFO lesson2 [main] Нажимаем "Где посмотреть программу интересующего курса?"
+2021-06-20 15:13:08,631 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:15:20,164 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:15:26,347 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:15:26,521 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:15:32,229 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 15:15:32,364 INFO lesson2 [main] Нажимаем "Где посмотреть программу интересующего курса?"
+2021-06-20 15:15:34,379 INFO lesson2 [main] Проверяем ответ на вопрос
+2021-06-20 15:15:34,382 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:20:33,233 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:20:39,896 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:20:40,207 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:20:40,937 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:21:46,263 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:21:51,935 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:21:52,906 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:21:55,802 INFO lesson2 [main] Вводим email для подписки на новости
+2021-06-20 15:22:00,978 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:26:23,422 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:26:30,209 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:26:30,299 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:26:32,234 INFO lesson2 [main] Вводим email для подписки на новости
+2021-06-20 15:26:33,394 INFO lesson2 [main] нажимаем кнопку "Подписаться"
+2021-06-20 15:26:33,759 INFO lesson2 [main] Проверяем, что подписка оформлена 
+2021-06-20 15:26:33,761 INFO lesson2 [main] Закрываем ChromeDriver после теста
+2021-06-20 15:27:26,861 INFO lesson2 [main] Запуск ChromeDriver перед тестом
+2021-06-20 15:27:33,832 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:27:33,923 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:27:39,479 INFO lesson2 [main] Открыт раздел FAQ
+2021-06-20 15:27:39,652 INFO lesson2 [main] Нажимаем "Где посмотреть программу интересующего курса?"
+2021-06-20 15:27:41,715 INFO lesson2 [main] Проверяем ответ на вопрос
+2021-06-20 15:27:45,347 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:27:45,521 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:27:53,167 INFO lesson2 [main] 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
+2021-06-20 15:27:54,064 INFO lesson2 [main] Проверяем.что адрес равен: 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
+2021-06-20 15:27:58,383 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:27:58,439 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:27:58,526 INFO lesson2 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
+2021-06-20 15:28:01,231 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:28:01,289 INFO lesson2 [main] Проверяем, что сайт otus открыт
+2021-06-20 15:28:09,894 INFO lesson2 [main] Открываем сайт msk.tele2.ru
+2021-06-20 15:28:09,951 INFO lesson2 [main] Проверяем, что сайт tele2 открыт
+2021-06-20 15:28:10,808 INFO lesson2 [main] Проверяем результат поиска, найденные номера:
+2021-06-20 15:28:10,850 INFO lesson2 [main] 700-97-41
+2021-06-20 15:28:15,587 INFO lesson2 [main] Открываем сайт otus.ru
+2021-06-20 15:28:15,644 INFO lesson2 [main] Проверяем, что сайт открыт
+2021-06-20 15:28:18,230 INFO lesson2 [main] Вводим email для подписки на новости
+2021-06-20 15:28:18,615 INFO lesson2 [main] нажимаем кнопку "Подписаться"
+2021-06-20 15:28:19,000 INFO lesson2 [main] Проверяем, что подписка оформлена Вы успешно подписались
+2021-06-20 15:28:19,000 INFO lesson2 [main] Закрываем ChromeDriver после теста
