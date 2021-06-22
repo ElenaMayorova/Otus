@@ -10,5 +10,8 @@ public interface ProjectServerConfig extends Config {
 
     @Key("urlTele2")
     String urlTele2();
+
+    @Key("urlyandex")
+    String urlyandex();
 }
 
