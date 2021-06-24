@@ -1,5 +1,6 @@
 package stepdefs;
 
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.en.Given;
@@ -28,14 +29,15 @@ public class MyStepdefs {
     public static WebDriver chromeDriver;
     private static Logger logger = LogManager.getLogger(MyStepdefs.class);
 
-    @Given("Open WebDriver")
+    @Before
     public void webDriverOpen() {
         WebDriverManager.chromedriver().setup();
         chromeDriver = new ChromeDriver();
         logger.info("Запуск ChromeDriver перед тестом");
     }
 
-    @Given("Close WebDriver")
+
+    @After
     public void webDriverClose() {
         logger.info("Закрываем ChromeDriver после теста");
         if (chromeDriver != null)
@@ -72,7 +74,7 @@ public class MyStepdefs {
 
     @When("User checks that there are available phone numbers {string}")
     public void availablePhoneNumbers(String number) {
-        String xpath = "//div[@class='bundles-row row']//div[@class='phone-number-block']//span[@class='phone-number']//span[contains(text(),"+ number+")]";
+        String xpath = "//div[@class='bundles-row row']//div[@class='phone-number-block']//span[@class='phone-number']//span[contains(text()," + number + ")]";
         List<WebElement> elements = chromeDriver.findElements(By.xpath(xpath));
         Wait wait = new FluentWait(chromeDriver);
         wait = new FluentWait(chromeDriver)
