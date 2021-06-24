@@ -10,9 +10,9 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class lesson2 {
+public class Lesson2 {
     public static WebDriver chromeDriver;
-    private static Logger logger = LogManager.getLogger(lesson2.class);
+    private static Logger logger = LogManager.getLogger(Lesson2.class);
     private static ProjectServerConfig projectServerConfig = ConfigFactory.create(ProjectServerConfig.class);
 
     @BeforeClass
