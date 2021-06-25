@@ -8,12 +8,14 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -38,7 +40,7 @@ public class Lesson8 {
     }
 
     @Test
-    public void openMarketYandex() throws InterruptedException {
+    public void openMarketYandex() {
         chromeDriver.get(projectServerConfig.urlyandex());
         logger.info("Открываем сайт ЯндексМаркет");
         Assert.assertEquals("Яндекс.Маркет — выбор и покупка товаров из проверенных интернет-магазинов", chromeDriver.getTitle());
@@ -89,7 +91,7 @@ public class Lesson8 {
 
         WebElement addedToComparisonSamsung = waitExplicit.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@data-apiary-widget-id='/content/popupInformer']//div[contains(text(),'добавлен к сравнению')]")));
         Assert.assertEquals("Товар " + eddSamsung + " добавлен к сравнению", addedToComparisonSamsung.getText());
-        logger.info("Проверяем,что товар " + eddSamsung + " добавлен в сравнение");
+        logger.info("Проверяем,что товар {} добавлен в сравнение", eddSamsung);
 
         WebElement chooseFirstXiaomi = waitExplicit.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//article[@data-autotest-id='product-snippet']//a[contains(@title,'Xiaomi')]")));
         String eddXiaomi = chooseFirstXiaomi.getAttribute("title");
@@ -102,13 +104,13 @@ public class Lesson8 {
 
         WebElement addedToComparisonXiaomi = waitExplicit.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@data-apiary-widget-id='/content/popupInformer']//div[contains(text(),'добавлен к сравнению')]")));
         Assert.assertEquals("Товар " + eddXiaomi + " добавлен к сравнению", addedToComparisonXiaomi.getText());
-        logger.info("Проверяем,что товар " + eddXiaomi + " добавлен в сравнение");
+        logger.info("Проверяем,что товар {} добавлен в сравнение", eddXiaomi);
 
-        WebElement buttonCompare = chromeDriver.findElement((By.xpath("//div[@data-apiary-widget-id='/content/popupInformer']//span[contains(text(),'Сравнить')]")));
+        WebElement buttonCompare = waitExplicit.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@data-apiary-widget-id='/content/popupInformer']//span[contains(text(),'Сравнить')]")));
         buttonCompare.click();
         logger.info("Нажимаем кнопку \"Сравнить\"");
 
-        List<WebElement> smart = chromeDriver.findElements(By.xpath("//div[@data-apiary-widget-id='/content/compareContent']//a[contains (text(),'Смартфон')]"));
+        List<WebElement> smart = waitExplicit.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@data-apiary-widget-id='/content/compareContent']//a[contains (text(),'Смартфон')]")));
         Assert.assertEquals(2, smart.size());
         logger.info("Проверяем,что в сравнении у нас 2 товара");
     }
