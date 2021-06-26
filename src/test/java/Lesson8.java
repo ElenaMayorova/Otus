@@ -106,8 +106,9 @@ public class Lesson8 {
         Assert.assertEquals("Товар " + eddXiaomi + " добавлен к сравнению", addedToComparisonXiaomi.getText());
         logger.info("Проверяем,что товар {} добавлен в сравнение", eddXiaomi);
 
-        WebElement buttonCompare = waitExplicit.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@data-apiary-widget-id='/content/popupInformer']//span[contains(text(),'Сравнить')]")));
+        WebElement buttonCompare = waitExplicit.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(.,'Сравнить')]")));
         buttonCompare.click();
+//      buttonCompare.sendKeys(Keys.ENTER);
         logger.info("Нажимаем кнопку \"Сравнить\"");
 
         List<WebElement> smart = waitExplicit.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@data-apiary-widget-id='/content/compareContent']//a[contains (text(),'Смартфон')]")));
