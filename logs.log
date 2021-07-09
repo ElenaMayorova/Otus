@@ -93,3 +93,6 @@ YouTube
 К/С 30101810200000000593
 БИК 044525593
 
+2021-07-05 15:47:15,424 INFO Lesson17_TDD [main] abs()= 8
+2021-07-05 15:47:15,434 INFO Lesson17_TDD [main] abs()= 81.0
+2021-07-05 15:47:15,434 INFO Lesson17_TDD [main] abs()= 3.0
