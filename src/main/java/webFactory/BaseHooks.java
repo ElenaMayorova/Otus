@@ -18,12 +18,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-import static sun.plugin2.os.windows.Windows.WAIT_TIMEOUT;
-
-
 public class BaseHooks {
     protected static WebDriver driver;
     private static final Logger logger = LogManager.getLogger(BaseHooks.class);
+    public static WebDriverWait waitExplicit;
 
     @BeforeClass
     public static void setup() {
@@ -37,9 +35,11 @@ public class BaseHooks {
         if (driver != null) {
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
+            waitExplicit = new WebDriverWait(driver, 10);
         } else {
             driver = WebDriverFactory.createDriver(WebDriverType.OPERA);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            waitExplicit = new WebDriverWait(driver, 10);
             driver.manage().window().maximize();
         }
         logger.info("Запущен webdriver {}", driver);
@@ -68,12 +68,12 @@ public class BaseHooks {
         return false;
     }
 
-
     public static WebElement getClickableElement(By locator) {
-        return new WebDriverWait(driver, WAIT_TIMEOUT).until(ExpectedConditions.elementToBeClickable(locator));
+        return waitExplicit.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
     public static WebElement getVisibilityElement(By locator) {
-        return new WebDriverWait(driver, WAIT_TIMEOUT).until(ExpectedConditions.visibilityOfElementLocated(locator));
+        return waitExplicit.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+
 }
