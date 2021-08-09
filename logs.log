@@ -93,532 +93,1160 @@ YouTube
 К/С 30101810200000000593
 БИК 044525593
 
-2021-08-06 18:40:16,027 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 6680 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 18:40:16,037 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 18:40:18,620 WARN o.s.c.a.AnnotationConfigApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': Instantiation of bean failed; nested exception is java.lang.NoSuchFieldError: WRITE_DURATIONS_AS_TIMESTAMPS
-2021-08-06 18:40:18,651 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener [main] 
+2021-08-02 19:52:01,112 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 19:52:08,638 INFO w.BaseHooks [main] Очистка cookies
+2021-08-02 19:52:10,937 INFO w.BaseHooks [main] Закрытие браузера 
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-08-06 18:40:18,726 ERROR o.s.b.SpringApplication [main] Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': Instantiation of bean failed; nested exception is java.lang.NoSuchFieldError: WRITE_DURATIONS_AS_TIMESTAMPS
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.8.jar:5.3.8]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.8.jar:5.3.8]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.2.jar:2.5.2]
-	at carSale.CarSaleApplication.main(CarSaleApplication.java:11) [classes/:?]
-Caused by: java.lang.NoSuchFieldError: WRITE_DURATIONS_AS_TIMESTAMPS
-	at org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.<clinit>(JacksonAutoConfiguration.java:84) ~[spring-boot-autoconfigure-2.5.2.jar:2.5.2]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.8.jar:5.3.8]
-	... 16 more
-2021-08-06 20:39:01,555 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 19508 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 20:39:01,585 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 20:39:06,170 WARN o.s.c.a.AnnotationConfigApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': Instantiation of bean failed; nested exception is java.lang.NoSuchFieldError: WRITE_DURATIONS_AS_TIMESTAMPS
-2021-08-06 20:39:06,242 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener [main] 
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-08-06 20:39:06,375 ERROR o.s.b.SpringApplication [main] Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': Instantiation of bean failed; nested exception is java.lang.NoSuchFieldError: WRITE_DURATIONS_AS_TIMESTAMPS
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.8.jar:5.3.8]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.8.jar:5.3.8]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.2.jar:2.5.2]
-	at carSale.CarSaleApplication.main(CarSaleApplication.java:11) [classes/:?]
-Caused by: java.lang.NoSuchFieldError: WRITE_DURATIONS_AS_TIMESTAMPS
-	at org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.<clinit>(JacksonAutoConfiguration.java:84) ~[spring-boot-autoconfigure-2.5.2.jar:2.5.2]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.8.jar:5.3.8]
-	... 16 more
-2021-08-06 20:45:26,260 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 20984 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 20:45:26,284 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 20:45:29,534 WARN o.s.c.a.AnnotationConfigApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': Instantiation of bean failed; nested exception is java.lang.NoSuchFieldError: WRITE_DURATIONS_AS_TIMESTAMPS
-2021-08-06 20:45:29,574 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener [main] 
+2021-08-02 20:16:18,312 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:16:18,322 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:16:30,783 INFO w.BaseHooks [main] Запущен webdriver InternetExplorerDriver: internet explorer on WINDOWS (3bc9fca0-09d3-4d68-8413-aad137fb773e)
+2021-08-02 20:21:02,404 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:22:32,082 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:24:37,294 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:28:47,008 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:29:02,817 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:29:12,629 INFO w.BaseHooks [main] Запущен webdriver InternetExplorerDriver: internet explorer on WINDOWS (25ae2bc4-df05-4c5f-b326-38ffc318a4e8)
+2021-08-02 20:30:53,708 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:31:03,289 INFO w.BaseHooks [main] Запущен webdriver InternetExplorerDriver: internet explorer on WINDOWS (11794ef6-0bfa-424d-9c7b-cb01a149388f)
+2021-08-02 20:35:36,945 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:35:51,651 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:36:01,536 INFO w.BaseHooks [main] Запущен webdriver InternetExplorerDriver: internet explorer on WINDOWS (57d2d7b4-f9ef-44ec-94f3-23d7d3b1dfcc)
+2021-08-02 20:38:32,508 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:39:51,262 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:40:01,557 INFO w.BaseHooks [main] Запущен webdriver InternetExplorerDriver: internet explorer on WINDOWS (0242e17f-a3dd-4b28-8f0e-658e572a4684)
+2021-08-02 20:42:57,331 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:46:34,438 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:46:47,020 INFO w.BaseHooks [main] Запущен webdriver InternetExplorerDriver: internet explorer on WINDOWS (1b0a4737-6826-4d50-a5fa-011f4bf6101c)
+2021-08-02 20:50:30,891 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 20:50:42,669 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (85fdfd36f3fc33e0b2171369e3363453)
+2021-08-02 20:50:50,801 INFO w.BaseHooks [main] Очистка cookies
+2021-08-02 20:50:52,103 INFO w.BaseHooks [main] Закрытие браузера 
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-08-06 20:45:29,646 ERROR o.s.b.SpringApplication [main] Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': Instantiation of bean failed; nested exception is java.lang.NoSuchFieldError: WRITE_DURATIONS_AS_TIMESTAMPS
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.8.jar:5.3.8]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.8.jar:5.3.8]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.2.jar:2.5.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.2.jar:2.5.2]
-	at carSale.CarSaleApplication.main(CarSaleApplication.java:11) [classes/:?]
-Caused by: java.lang.NoSuchFieldError: WRITE_DURATIONS_AS_TIMESTAMPS
-	at org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.<clinit>(JacksonAutoConfiguration.java:84) ~[spring-boot-autoconfigure-2.5.2.jar:2.5.2]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.8.jar:5.3.8]
-	... 16 more
-2021-08-06 20:56:33,521 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 17492 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 20:56:33,575 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 20:56:40,603 INFO c.CarSaleApplication [main] Started CarSaleApplication in 11.312 seconds (JVM running for 19.98)
-2021-08-06 20:56:40,651 INFO c.Classic [main] Сильные зависимости конфигурация classc
-2021-08-06 20:56:40,653 INFO c.Classic [main] Сильные зависимости конфигурация classc
-2021-08-06 21:05:49,613 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 19692 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 21:05:49,644 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 21:05:53,022 INFO c.CarSaleApplication [main] Started CarSaleApplication in 5.41 seconds (JVM running for 9.163)
-2021-08-06 21:05:53,038 INFO c.Classic [main] Сильные зависимости конфигурация classc
-2021-08-06 21:05:53,038 INFO c.Classic [main] Сильные зависимости конфигурация classc
-2021-08-06 21:10:29,902 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 12776 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 21:10:29,926 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 21:10:32,713 INFO c.CarSaleApplication [main] Started CarSaleApplication in 4.576 seconds (JVM running for 8.565)
-2021-08-06 21:10:32,730 INFO c.Sport [main] Сильные зависимости конфигурация classc
-2021-08-06 21:10:32,730 INFO c.Sport [main] Сильные зависимости конфигурация classc
-2021-08-06 21:12:04,936 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 5484 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 21:12:04,967 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 21:12:07,976 INFO c.CarSaleApplication [main] Started CarSaleApplication in 5.045 seconds (JVM running for 8.555)
-2021-08-06 21:18:37,137 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 18936 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 21:18:37,155 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 21:18:40,039 INFO c.CarSaleApplication [main] Started CarSaleApplication in 4.859 seconds (JVM running for 8.735)
-2021-08-06 21:27:55,869 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 11488 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 21:27:55,897 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 21:27:59,054 INFO c.CarSaleApplication [main] Started CarSaleApplication in 5.069 seconds (JVM running for 8.811)
-2021-08-06 21:39:28,700 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 9248 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 21:39:28,724 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 21:39:31,248 INFO c.CarSaleApplication [main] Started CarSaleApplication in 4.421 seconds (JVM running for 7.661)
-2021-08-06 21:47:36,942 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 21208 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-06 21:47:36,966 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-06 21:47:40,373 INFO c.CarSaleApplication [main] Started CarSaleApplication in 5.5 seconds (JVM running for 9.639)
-2021-08-06 21:48:31,055 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-06 21:49:07,940 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-06 21:49:07,988 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-06 21:49:07,988 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-07 11:11:07,473 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 16236 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-07 11:11:07,483 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-07 11:11:10,268 INFO c.CarSaleApplication [main] Started CarSaleApplication in 4.666 seconds (JVM running for 8.56)
-2021-08-07 11:11:10,284 INFO c.Sport [main] Сильные зависимости конфигурация sport
-2021-08-07 11:11:10,284 INFO c.Sport [main] Сильные зависимости конфигурация sport
-2021-08-07 11:11:10,284 INFO c.Sport [main] Сильные зависимости конфигурация sport
-2021-08-07 11:13:01,755 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 16196 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-07 11:13:01,755 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-07 11:13:04,445 INFO c.CarSaleApplication [main] Started CarSaleApplication in 4.337 seconds (JVM running for 8.657)
-2021-08-07 11:13:04,460 INFO c.Luxe [main] Сильные зависимости конфигурация Luxe
-2021-08-07 11:13:04,460 INFO c.Luxe [main] Сильные зависимости конфигурация Luxe
-2021-08-07 11:13:04,460 INFO c.Luxe [main] Сильные зависимости конфигурация Luxe
-2021-08-07 11:13:55,515 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 20840 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-07 11:13:55,536 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-07 11:13:58,379 INFO c.CarSaleApplication [main] Started CarSaleApplication in 5.056 seconds (JVM running for 8.725)
-2021-08-07 11:13:58,401 INFO c.Classic [main] Сильные зависимости конфигурация classic
-2021-08-07 11:13:58,401 INFO c.Classic [main] Сильные зависимости конфигурация classic
-2021-08-07 11:13:58,401 INFO c.Classic [main] Сильные зависимости конфигурация classic
-2021-08-07 11:39:52,996 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 7600 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-07 11:39:53,016 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-07 11:39:56,251 INFO c.CarSaleApplication [main] Started CarSaleApplication in 5.281 seconds (JVM running for 8.87)
-2021-08-07 11:39:56,267 INFO c.Classic [main] Конфигурация classic через интерфейс
-2021-08-07 11:39:56,267 INFO c.Classic [main] Конфигурация classic через интерфейс
-2021-08-07 11:39:56,267 INFO c.Classic [main] Конфигурация classic через интерфейс
-2021-08-07 11:40:26,773 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 12336 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-07 11:40:26,793 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-07 11:40:29,590 INFO c.CarSaleApplication [main] Started CarSaleApplication in 4.827 seconds (JVM running for 8.342)
-2021-08-07 11:40:29,606 INFO c.Sport [main] Конфигурация sport через интерфейс
-2021-08-07 11:40:29,606 INFO c.Sport [main] Конфигурация sport через интерфейс
-2021-08-07 11:40:29,606 INFO c.Sport [main] Конфигурация sport через интерфейс
-2021-08-07 11:40:59,249 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 14956 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-07 11:40:59,268 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-07 11:41:01,864 INFO c.CarSaleApplication [main] Started CarSaleApplication in 4.719 seconds (JVM running for 8.409)
-2021-08-07 11:41:01,879 INFO c.Luxe [main] Конфигурация Luxe через интерфейс
-2021-08-07 11:41:01,879 INFO c.Luxe [main] Конфигурация Luxe через интерфейс
-2021-08-07 11:41:01,879 INFO c.Luxe [main] Конфигурация Luxe через интерфейс
-2021-08-07 11:48:53,511 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 7296 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-07 11:48:53,521 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-07 11:48:56,479 INFO c.CarSaleApplication [main] Started CarSaleApplication in 4.815 seconds (JVM running for 8.5)
-2021-08-07 11:48:56,510 INFO c.Classic [main] Конфигурация classic через интерфейс
-2021-08-07 11:48:56,510 INFO c.Sport [main] Конфигурация sport через интерфейс
-2021-08-07 11:48:56,510 INFO c.Luxe [main] Конфигурация Luxe через интерфейс
-2021-08-07 12:05:02,231 INFO c.CarSaleApplication [main] Starting CarSaleApplication using Java 1.8.0_211 on LAPTOP-15JLIKAI with PID 5828 (C:\Users\Елена\IdeaProjects\Otus\target\classes started by Елена in C:\Users\Елена\IdeaProjects\Otus)
-2021-08-07 12:05:02,241 INFO c.CarSaleApplication [main] No active profile set, falling back to default profiles: default
-2021-08-07 12:05:04,496 INFO c.SpringConfig [main] bean classic
-2021-08-07 12:05:04,496 INFO c.SpringConfig [main] bean sport
-2021-08-07 12:05:04,496 INFO c.SpringConfig [main] bean luxe
-2021-08-07 12:05:04,834 INFO c.CarSaleApplication [main] Started CarSaleApplication in 4.565 seconds (JVM running for 8.573)
-2021-08-07 12:05:05,371 INFO c.SpringConfig [main] bean classic
-2021-08-07 12:05:05,371 INFO c.SpringConfig [main] bean sport
-2021-08-07 12:05:05,371 INFO c.SpringConfig [main] bean luxe
-2021-08-07 12:05:05,473 INFO c.Classic [main] Конфигурация classic через интерфейс
-2021-08-07 12:05:05,473 INFO c.Sport [main] Конфигурация sport через интерфейс
-2021-08-07 12:05:05,473 INFO c.Luxe [main] Конфигурация Luxe через интерфейс
-2021-08-07 22:32:43,514 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 22:32:43,757 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 22:32:59,306 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-07 22:32:59,349 INFO Lesson7 [main] Проверяем, что сайт открыт
-2021-08-07 22:33:07,695 INFO Lesson7 [main] Проверяем.что адрес равен: 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
-2021-08-07 22:33:11,886 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-07 22:33:12,070 INFO Lesson7 [main] Проверяем, что сайт otus открыт
-2021-08-07 22:33:19,407 INFO Lesson7 [main] Открываем сайт msk.tele2.ru
-2021-08-07 22:33:23,846 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-07 22:33:23,874 INFO Lesson7 [main] Проверяем, что сайт открыт
-2021-08-07 22:33:26,287 INFO Lesson7 [main] Вводим email для подписки на новости
-2021-08-07 22:33:26,726 INFO Lesson7 [main] нажимаем кнопку "Подписаться"
-2021-08-07 22:33:27,212 INFO Lesson7 [main] Проверяем, что подписка оформлена Вы успешно подписались
-2021-08-07 22:33:27,213 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 22:40:38,753 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 22:40:38,964 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 22:40:46,637 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-07 22:40:46,789 INFO Lesson7 [main] Проверяем, что сайт открыт
-2021-08-07 22:40:54,586 INFO Lesson7 [main] Проверяем.что адрес равен: 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
-2021-08-07 22:40:54,987 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 22:48:03,368 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 22:48:03,617 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 22:48:12,796 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-07 22:48:12,837 INFO Lesson7 [main] Проверяем, что сайт открыт
-2021-08-07 22:48:26,320 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 22:57:59,346 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 22:57:59,562 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 22:58:11,365 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 22:58:43,092 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 22:58:43,291 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 22:58:54,965 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 22:59:41,247 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 22:59:41,496 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 22:59:52,965 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 23:01:03,882 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 23:01:04,098 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 23:01:15,569 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 23:01:55,364 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 23:01:55,596 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 23:02:03,900 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-07 23:02:05,124 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 23:05:49,408 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 23:05:49,609 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 23:05:57,323 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-07 23:05:58,345 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 23:10:01,119 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 23:10:01,329 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 23:10:09,552 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-07 23:10:10,833 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 23:22:10,491 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 23:22:10,695 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 23:22:19,202 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-07 23:22:20,488 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 23:33:18,866 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 23:33:19,138 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 23:33:31,036 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 23:34:14,128 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 23:34:14,456 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 23:34:28,957 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 23:44:55,385 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 23:44:55,597 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 23:45:07,475 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-07 23:46:30,842 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-07 23:46:31,059 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-07 23:46:39,395 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-07 23:46:41,780 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 00:00:26,894 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 00:00:27,095 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 00:00:34,935 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 00:00:35,977 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 00:10:56,037 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 00:10:56,299 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 00:11:07,788 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 00:18:14,147 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 00:18:14,383 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 00:18:22,781 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 00:18:22,820 INFO Lesson7 [main] Проверяем, что сайт открыт
-2021-08-08 00:18:37,458 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 00:27:49,050 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 00:27:49,278 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 00:27:56,895 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 00:27:56,928 INFO Lesson7 [main] Проверяем, что сайт открыт
-2021-08-08 00:28:03,770 INFO Lesson7 [main] Проверяем.что адрес равен: 125167, г. Москва, Нарышкинская аллея., д. 5, стр. 2, тел. +7 499 938-92-02
-2021-08-08 00:28:14,260 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 00:30:10,662 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 00:30:10,897 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 00:30:20,634 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 00:30:21,383 INFO Lesson7 [main] Проверяем, что сайт открыт
-2021-08-08 00:30:34,071 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 00:32:02,836 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 00:32:03,040 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 00:32:10,225 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 00:32:11,089 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 00:41:49,795 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 00:41:50,008 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 00:42:01,585 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 00:45:42,596 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 00:45:42,794 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 00:45:54,325 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 00:46:46,941 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 00:46:47,164 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 00:46:58,585 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 07:58:46,019 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 07:58:46,232 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 07:58:58,532 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 08:01:06,315 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 08:01:15,397 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 08:01:15,464 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 08:01:15,472 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 08:05:35,069 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 08:05:45,041 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 08:05:45,832 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 08:05:45,832 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 08:16:08,253 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 08:16:19,026 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 08:16:19,689 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 09:22:09,378 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 09:22:16,466 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 09:22:16,514 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 09:22:16,514 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 09:43:42,360 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 09:43:49,193 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 09:43:49,264 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 09:43:49,270 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 09:52:15,297 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 09:52:29,272 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 09:52:29,393 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 09:57:23,943 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 09:57:32,052 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 09:57:32,116 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 09:57:32,123 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 10:04:43,159 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 10:04:53,240 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 10:04:53,271 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 10:04:53,382 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 10:06:41,724 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 10:06:47,863 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 10:06:48,693 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 10:06:48,697 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 10:17:56,108 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 10:18:02,384 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 10:18:05,016 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 10:18:05,019 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 10:20:02,063 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 10:20:08,305 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 10:20:10,958 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 10:20:10,961 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 10:23:40,917 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 10:23:51,154 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 10:23:54,842 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 10:23:54,845 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 10:26:03,115 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 10:26:08,058 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 10:26:10,872 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 10:26:10,875 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 10:28:00,595 INFO Lesson2 [main] ������ ChromeDriver ����� ������
-2021-08-08 10:28:06,935 INFO Lesson2 [main] ��������� ���� otus.ru
-2021-08-08 10:28:10,624 INFO Lesson2 [main] ���������, ��� ���� ������
-2021-08-08 10:28:10,627 INFO Lesson2 [main] ��������� ChromeDriver ����� �����
-2021-08-08 10:33:31,317 INFO Lesson2 [main] ������ ChromeDriver ����� ������
-2021-08-08 10:33:37,824 INFO Lesson2 [main] ��������� ���� otus.ru
-2021-08-08 10:33:38,790 INFO Lesson2 [main] ���������, ��� ���� ������
-2021-08-08 10:33:39,306 INFO Lesson2 [main] ��������� ChromeDriver ����� �����
-2021-08-08 10:50:31,963 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 10:50:39,057 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 10:50:40,543 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 10:55:04,662 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 10:55:10,264 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 10:55:12,335 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 10:59:17,029 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 10:59:23,113 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 10:59:24,536 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 11:05:32,715 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 11:05:46,766 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 11:05:48,792 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 11:11:46,266 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 11:11:52,055 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 11:11:54,112 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 11:18:11,000 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 11:18:17,224 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 11:18:19,028 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 11:19:21,643 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 11:19:29,692 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 11:19:32,250 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 11:22:36,854 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 11:22:41,749 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 11:22:44,410 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 11:22:44,412 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 11:23:35,960 INFO Lesson2 [main] ������ ChromeDriver ����� ������
-2021-08-08 11:23:41,504 INFO Lesson2 [main] ��������� ���� otus.ru
-2021-08-08 11:23:42,909 INFO Lesson2 [main] ���������, ��� ���� ������
-2021-08-08 11:23:43,393 INFO Lesson2 [main] ��������� ChromeDriver ����� �����
-2021-08-08 11:25:33,936 INFO Lesson2 [main] ������ ChromeDriver ����� ������
-2021-08-08 11:25:39,178 INFO Lesson2 [main] ��������� ���� otus.ru
-2021-08-08 11:25:40,629 INFO Lesson2 [main] ���������, ��� ���� ������
-2021-08-08 11:25:41,257 INFO Lesson2 [main] ��������� ChromeDriver ����� �����
-2021-08-08 13:19:43,573 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 13:19:43,925 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 13:19:52,136 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 13:19:56,523 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 13:20:00,430 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 13:20:01,700 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 13:21:31,332 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 13:21:31,556 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 13:21:37,497 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 13:21:42,818 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 13:21:45,648 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 13:21:46,650 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 13:22:46,556 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 13:22:54,316 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 13:22:56,935 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 13:29:45,694 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 13:29:45,990 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 13:29:55,421 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 13:30:00,301 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 13:30:03,730 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 13:30:04,777 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 13:31:16,665 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 13:31:22,896 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 13:31:24,755 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 16:42:47,731 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 16:42:59,692 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 16:43:01,587 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 16:44:39,905 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 16:44:46,713 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 16:44:48,845 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 16:46:33,881 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 16:46:39,747 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 16:46:41,067 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 16:48:22,971 INFO Lesson2 [main] Р—Р°РїСѓСЃРє ChromeDriver РїРµСЂРµРґ С‚РµСЃС‚РѕРј
-2021-08-08 16:48:29,704 INFO Lesson2 [main] РћС‚РєСЂС‹РІР°РµРј СЃР°Р№С‚ otus.ru
-2021-08-08 16:48:32,899 INFO Lesson2 [main] Р—Р°РєСЂС‹РІР°РµРј ChromeDriver РїРѕСЃР»Рµ С‚РµСЃС‚Р°
-2021-08-08 16:50:23,130 INFO Lesson2 [main] Р—Р°РїСѓСЃРє ChromeDriver РїРµСЂРµРґ С‚РµСЃС‚РѕРј
-2021-08-08 16:50:29,426 INFO Lesson2 [main] РћС‚РєСЂС‹РІР°РµРј СЃР°Р№С‚ otus.ru
-2021-08-08 16:50:33,316 INFO Lesson2 [main] Р—Р°РєСЂС‹РІР°РµРј ChromeDriver РїРѕСЃР»Рµ С‚РµСЃС‚Р°
-2021-08-08 16:56:00,878 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 16:56:07,948 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 16:56:12,089 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 16:56:12,097 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 16:57:47,354 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 16:57:55,603 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 16:57:57,546 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:00:26,618 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 17:00:33,247 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 17:00:34,469 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:04:22,582 INFO Lesson7 [main] Запуск ChromeDriver перед тестом
-2021-08-08 17:04:22,789 INFO Lesson7 [main] Разварачиваем окно  на весь экран, размер окна(1382, 744)
-2021-08-08 17:04:28,470 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 17:04:33,036 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 17:04:36,769 INFO Lesson7 [main] Открываем сайт otus.ru
-2021-08-08 17:04:38,031 INFO Lesson7 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:12:39,323 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 17:12:56,427 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 17:12:57,632 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:14:26,169 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 17:14:34,436 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 17:14:35,604 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:19:53,298 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 17:20:07,807 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 17:20:09,613 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:21:10,005 INFO Lesson2 [main] Р—Р°РїСѓСЃРє ChromeDriver РїРµСЂРµРґ С‚РµСЃС‚РѕРј
-2021-08-08 17:21:15,647 INFO Lesson2 [main] РћС‚РєСЂС‹РІР°РµРј СЃР°Р№С‚ otus.ru
-2021-08-08 17:21:17,519 INFO Lesson2 [main] Р—Р°РєСЂС‹РІР°РµРј ChromeDriver РїРѕСЃР»Рµ С‚РµСЃС‚Р°
-2021-08-08 17:22:16,399 INFO Lesson2 [main] Р—Р°РїСѓСЃРє ChromeDriver РїРµСЂРµРґ С‚РµСЃС‚РѕРј
-2021-08-08 17:22:22,525 INFO Lesson2 [main] РћС‚РєСЂС‹РІР°РµРј СЃР°Р№С‚ otus.ru
-2021-08-08 17:22:23,886 INFO Lesson2 [main] Р—Р°РєСЂС‹РІР°РµРј ChromeDriver РїРѕСЃР»Рµ С‚РµСЃС‚Р°
-2021-08-08 17:23:00,538 INFO Lesson2 [main] Р—Р°РїСѓСЃРє ChromeDriver РїРµСЂРµРґ С‚РµСЃС‚РѕРј
-2021-08-08 17:23:06,717 INFO Lesson2 [main] РћС‚РєСЂС‹РІР°РµРј СЃР°Р№С‚ otus.ru
-2021-08-08 17:23:10,579 INFO Lesson2 [main] Р—Р°РєСЂС‹РІР°РµРј ChromeDriver РїРѕСЃР»Рµ С‚РµСЃС‚Р°
-2021-08-08 17:24:16,142 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 17:24:21,301 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 17:24:23,097 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 17:24:23,099 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:28:22,759 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 17:28:29,549 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 17:28:31,320 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:35:59,836 INFO Lesson2 [main] Р—Р°РїСѓСЃРє ChromeDriver РїРµСЂРµРґ С‚РµСЃС‚РѕРј
-2021-08-08 17:36:05,825 INFO Lesson2 [main] РћС‚РєСЂС‹РІР°РµРј СЃР°Р№С‚ otus.ru
-2021-08-08 17:36:07,806 INFO Lesson2 [main] Р—Р°РєСЂС‹РІР°РµРј ChromeDriver РїРѕСЃР»Рµ С‚РµСЃС‚Р°
-2021-08-08 17:37:19,312 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 17:37:25,549 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 17:37:27,001 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:37:50,853 INFO Lesson2 [main] Р—Р°РїСѓСЃРє ChromeDriver РїРµСЂРµРґ С‚РµСЃС‚РѕРј
-2021-08-08 17:37:55,932 INFO Lesson2 [main] РћС‚РєСЂС‹РІР°РµРј СЃР°Р№С‚ otus.ru
-2021-08-08 17:37:58,752 INFO Lesson2 [main] Р—Р°РєСЂС‹РІР°РµРј ChromeDriver РїРѕСЃР»Рµ С‚РµСЃС‚Р°
-2021-08-08 17:41:38,330 INFO Lesson2 [main] ������ ChromeDriver ����� ������
-2021-08-08 17:41:47,439 INFO Lesson2 [main] ��������� ���� otus.ru
-2021-08-08 17:41:49,471 INFO Lesson2 [main] ���������, ��� ���� ������
-2021-08-08 17:41:50,167 INFO Lesson2 [main] ��������� ChromeDriver ����� �����
-2021-08-08 17:42:43,849 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 17:42:49,163 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 17:42:51,422 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 17:42:51,424 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:43:56,823 INFO Lesson2 [main] ������ ChromeDriver ����� ������
-2021-08-08 17:44:03,136 INFO Lesson2 [main] ��������� ���� otus.ru
-2021-08-08 17:44:04,092 INFO Lesson2 [main] ���������, ��� ���� ������
-2021-08-08 17:44:04,642 INFO Lesson2 [main] ��������� ChromeDriver ����� �����
-2021-08-08 17:46:34,943 INFO Lesson2 [main] ������ ChromeDriver ����� ������
-2021-08-08 17:46:41,615 INFO Lesson2 [main] ��������� ���� otus.ru
-2021-08-08 17:46:43,142 INFO Lesson2 [main] ���������, ��� ���� ������
-2021-08-08 17:46:44,214 INFO Lesson2 [main] ��������� ChromeDriver ����� �����
-2021-08-08 17:48:30,517 INFO Lesson2 [main] ������ ChromeDriver ����� ������
-2021-08-08 17:48:37,402 INFO Lesson2 [main] ��������� ���� otus.ru
-2021-08-08 17:48:38,335 INFO Lesson2 [main] ���������, ��� ���� ������
-2021-08-08 17:48:38,959 INFO Lesson2 [main] ��������� ChromeDriver ����� �����
-2021-08-08 17:49:38,906 INFO Lesson2 [main] Запуск ChromeDriver перед тестом
-2021-08-08 17:49:44,238 INFO Lesson2 [main] Открываем сайт otus.ru
-2021-08-08 17:49:46,601 INFO Lesson2 [main] Проверяем, что сайт открыт
-2021-08-08 17:49:46,604 INFO Lesson2 [main] Закрываем ChromeDriver после теста
-2021-08-08 17:53:45,706 INFO Lesson7 [main] ������ ChromeDriver ����� ������
-2021-08-08 17:53:45,976 INFO Lesson7 [main] ������������� ����  �� ���� �����, ������ ����(1382, 744)
-2021-08-08 17:53:52,718 INFO Lesson7 [main] ��������� ���� otus.ru
-2021-08-08 17:53:53,809 INFO Lesson7 [main] ���������, ��� ���� ������
-2021-08-08 17:53:57,164 INFO Lesson7 [main] ������ ������ FAQ
-2021-08-08 17:53:58,503 INFO Lesson7 [main] �������� "��� ���������� ��������� ������������� �����?"
-2021-08-08 17:53:59,766 INFO Lesson7 [main] ��������� ����� �� ������
-2021-08-08 17:54:04,976 INFO Lesson7 [main] ��������� ���� otus.ru
-2021-08-08 17:54:05,860 INFO Lesson7 [main] ���������, ��� ���� ������
-2021-08-08 17:54:11,098 INFO Lesson7 [main] ���������.��� ����� �����: 125167, �. ������, ������������ �����., �. 5, ���. 2, ���. +7 499 938-92-02
-2021-08-08 17:54:13,755 INFO Lesson7 [main] ��������� ���� otus.ru
-2021-08-08 17:54:15,617 INFO Lesson7 [main] ���������, ��� ���� ������
-2021-08-08 17:54:17,050 INFO Lesson7 [main] ������ email ��� �������� �� �������
-2021-08-08 17:54:17,763 INFO Lesson7 [main] �������� ������ "�����������"
-2021-08-08 17:54:18,427 INFO Lesson7 [main] ���������, ��� �������� ��������� �� ������� �����������
-2021-08-08 17:54:18,722 INFO Lesson7 [main] ��������� ChromeDriver ����� �����
-2021-08-08 18:04:12,236 INFO Lesson7 [main] ������ ChromeDriver ����� ������
-2021-08-08 18:04:12,570 INFO Lesson7 [main] ������������� ����  �� ���� �����, ������ ����(1382, 744)
-2021-08-08 18:04:29,439 INFO Lesson7 [main] ��������� ���� otus.ru
-2021-08-08 18:04:31,459 INFO Lesson7 [main] ���������, ��� ���� ������
-2021-08-08 18:04:37,491 INFO Lesson7 [main] ���������.��� ����� �����: 125167, �. ������, ������������ �����., �. 5, ���. 2, ���. +7 499 938-92-02
-2021-08-08 18:04:41,378 INFO Lesson7 [main] ��������� ���� otus.ru
-2021-08-08 18:04:42,290 INFO Lesson7 [main] ���������, ��� ���� ������
-2021-08-08 18:04:43,876 INFO Lesson7 [main] ������ email ��� �������� �� �������
-2021-08-08 18:04:44,735 INFO Lesson7 [main] �������� ������ "�����������"
-2021-08-08 18:04:45,501 INFO Lesson7 [main] ���������, ��� �������� ��������� �� ������� �����������
-2021-08-08 18:04:45,836 INFO Lesson7 [main] ��������� ChromeDriver ����� �����
+
+2021-08-02 21:09:06,723 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 21:09:18,436 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (b646665c54c42eb44229157d8bb351bb)
+2021-08-02 21:09:18,484 INFO w.BaseHooks [main] Очистка cookies
+2021-08-02 21:09:19,667 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-02 21:10:33,553 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-02 21:10:45,313 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (1e0045f2969b7d515b3f5df207f908c8)
+2021-08-02 21:10:51,800 INFO p.Otus [main] Запущен сайт
+2021-08-02 21:10:53,506 INFO w.BaseHooks [main] Очистка cookies
+2021-08-02 21:10:55,058 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 19:30:06,779 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 19:30:20,277 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (c9b9d2333a5619dcbf57cb38f7d6dfab)
+2021-08-04 19:30:26,370 INFO p.Otus [main] Запущен сайт
+2021-08-04 19:30:36,678 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 19:30:39,322 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 19:33:17,353 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 19:33:28,115 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (a3f7671827033e38d128a165488c1cd6)
+2021-08-04 19:33:33,813 INFO p.Otus [main] Запущен сайт
+2021-08-04 19:33:35,550 INFO p.Otus [main] Открыт раздел "Вход и регистрация"
+2021-08-04 19:33:36,755 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 19:33:38,993 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 19:55:54,561 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 19:56:04,271 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (bd45f0f7faa326bf5a3281798e9520bc)
+2021-08-04 19:56:09,279 INFO p.Otus [main] Запущен сайт
+2021-08-04 19:56:11,793 INFO p.Otus [main] Открыт раздел "Вход и регистрация"
+2021-08-04 19:56:16,126 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 19:56:17,774 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 19:56:59,853 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 19:57:09,842 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (46dde6bc66511cb66abeb53e91c11e08)
+2021-08-04 19:57:16,922 INFO p.Otus [main] Запущен сайт
+2021-08-04 19:57:22,079 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 19:57:23,565 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 20:06:15,832 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 20:06:25,786 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (9448f67733dc4be45a5503830cc2a57f)
+2021-08-04 20:06:32,065 INFO p.Otus [main] Запущен сайт
+2021-08-04 20:06:39,272 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 20:06:40,707 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 20:08:09,722 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 20:08:19,641 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (80ad18a89eafc472db8318690d9f58be)
+2021-08-04 20:08:25,307 INFO p.Otus [main] Запущен сайт
+2021-08-04 20:08:29,365 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 20:08:31,276 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 20:08:31,562 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 20:08:32,913 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 20:54:35,648 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 20:54:46,213 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (98f97240d6f9fd4395e2838a74b1879c)
+2021-08-04 20:54:51,546 INFO p.Otus [main] Запущен сайт
+2021-08-04 20:54:56,137 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 20:54:57,391 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 20:54:59,517 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 20:55:00,985 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 20:55:43,920 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 20:55:53,770 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (4e3f1831978204e084bfef10c23953d7)
+2021-08-04 20:55:59,418 INFO p.Otus [main] Запущен сайт
+2021-08-04 20:56:04,182 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 20:56:05,465 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 20:56:06,878 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 20:56:07,107 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 20:56:08,544 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 20:57:30,060 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 20:57:40,442 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (4919ce28c84c2901cdb00a5b94736122)
+2021-08-04 20:57:45,684 INFO p.Otus [main] Запущен сайт
+2021-08-04 20:57:49,823 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 20:57:51,154 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 20:57:56,309 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 20:57:57,966 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 20:58:55,173 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 20:59:04,864 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (388c49e9211e47fb68bbb25fc5c3bf0e)
+2021-08-04 20:59:11,500 INFO p.Otus [main] Запущен сайт
+2021-08-04 20:59:16,402 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 20:59:18,278 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 20:59:21,632 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 20:59:22,049 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 20:59:23,406 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:02:27,927 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:02:37,975 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (c68fa9cea912b8694225db27b0d6972c)
+2021-08-04 21:02:44,772 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:02:49,320 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:02:50,758 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:02:53,909 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 21:02:54,800 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:02:56,209 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:11:48,554 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:11:59,877 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (8222c774d801656645590e14f3290b24)
+2021-08-04 21:12:06,881 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:12:12,254 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:12:14,946 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:12:18,099 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 21:12:22,649 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:12:23,207 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:12:24,483 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:20:56,575 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:21:06,841 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (b309cbd80ed6966557462791967b4146)
+2021-08-04 21:21:13,692 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:21:17,849 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:21:19,988 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:21:24,639 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 21:21:25,109 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 21:21:29,556 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:21:31,004 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:22:19,185 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:22:29,402 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (67f1de594ac3e761e2127141ecec759d)
+2021-08-04 21:22:34,691 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:22:40,419 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:22:42,271 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:22:45,393 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 21:22:47,977 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 21:22:50,361 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:22:52,073 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:23:56,418 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:24:06,008 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (d3657b153e09802fd5d7a579a5c41e55)
+2021-08-04 21:24:12,109 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:24:18,065 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:24:19,566 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:24:23,233 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 21:24:23,863 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 21:24:30,396 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:24:32,465 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:24:33,988 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:25:32,956 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:25:42,967 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (fda3881aeb634beaf39d927d68c6629f)
+2021-08-04 21:25:47,844 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:25:53,567 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:25:54,999 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:25:59,619 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:26:00,945 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:26:33,397 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:26:43,789 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (6dec9496ecdef17d82e8ecc00cb26d60)
+2021-08-04 21:26:49,513 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:26:55,027 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:26:56,514 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:26:58,229 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:26:59,937 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:27:38,237 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:27:48,377 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (5c94938b4ef932f85ff9dd6ec66f6769)
+2021-08-04 21:27:53,573 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:27:58,261 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:27:59,607 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:28:01,047 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 21:28:01,469 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 21:28:05,949 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:28:09,329 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 21:28:12,751 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:28:14,839 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:28:18,522 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:28:20,100 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:29:27,692 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:29:38,137 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (57d9098251c6bf4bac65b9b7ab8376c3)
+2021-08-04 21:29:44,584 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:29:49,867 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:29:51,349 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:29:54,681 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 21:29:55,043 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:29:56,418 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:30:28,529 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:30:38,874 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (87829f166c35ecd968e113e389ddb2fb)
+2021-08-04 21:30:44,398 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:30:49,917 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:30:51,860 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:30:55,442 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 21:30:58,690 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 21:30:59,113 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:31:00,944 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 21:32:27,486 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 21:32:37,388 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (e7f6c8609dd9dcc0e060eb7bcd0069ab)
+2021-08-04 21:32:43,387 INFO p.Otus [main] Запущен сайт
+2021-08-04 21:32:48,832 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:32:50,211 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:32:56,973 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 21:32:58,147 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 21:33:05,209 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 21:33:07,524 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 21:33:11,306 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 21:33:12,854 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 22:04:02,976 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:04:12,629 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (28ab789ff64fad7c5d34fdcd866c3706)
+2021-08-04 22:04:19,327 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:04:24,916 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:04:26,547 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:04:29,333 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:05:06,317 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:05:17,883 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (f9ec120dc779ef483395c3c3a10908e4)
+2021-08-04 22:05:24,261 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:05:29,711 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:05:31,103 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:05:35,569 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:07:26,427 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:07:35,991 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (2c518d5f327187d0c389e26a24a2e3b0)
+2021-08-04 22:07:42,025 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:07:46,656 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:07:48,006 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:07:50,631 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:07:51,810 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 22:07:53,450 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 22:09:58,612 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:10:08,522 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (31929e32c70fde63f79c258f411bc115)
+2021-08-04 22:10:13,566 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:10:18,591 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:10:20,003 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:10:23,163 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:13:03,262 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:13:12,808 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (de0a1b2511ecaed978aae9a291c35d3f)
+2021-08-04 22:13:47,075 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:13:51,292 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:13:53,401 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:13:57,876 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:15:09,565 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:16:16,948 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:16:44,789 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:17:18,354 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:18:24,109 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:18:34,756 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (a94a83cfc13767a8c1ac0e109c6f383c)
+2021-08-04 22:18:40,814 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:18:44,937 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:18:47,046 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:24:32,538 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 22:24:34,446 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 22:25:19,247 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:25:29,153 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (f3140a22c4b51fa36c4587f702201b46)
+2021-08-04 22:25:34,475 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:25:38,064 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:25:40,173 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:25:42,609 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:30:28,927 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:30:38,611 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (2564320f12a6eaf2ff805dcabdc36a2e)
+2021-08-04 22:30:45,674 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:30:50,507 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:30:51,731 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:30:54,323 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:32:58,344 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:33:08,876 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (0bed47785e70e99b29283ae60e704bce)
+2021-08-04 22:33:14,355 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:33:19,812 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:33:21,074 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:33:24,756 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:34:46,644 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:34:56,719 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (a1c7b5dfc5e3cb132c67aacb70e6dd3d)
+2021-08-04 22:35:01,635 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:35:06,116 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:35:07,449 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:35:08,761 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 22:35:08,806 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 22:44:49,153 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:44:58,773 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (cbbd3b1a85c6c332b8bb3c4fb4e8fb0e)
+2021-08-04 22:45:04,493 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:45:08,395 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:45:10,684 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 22:45:12,019 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 22:47:43,479 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:47:53,686 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (b3773f39bbc54dd2e8219a078f08a6b3)
+2021-08-04 22:47:58,704 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:48:03,047 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:48:05,041 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:48:07,570 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:49:15,540 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:49:25,514 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (b6498326539a11177c1bd75e24db74c9)
+2021-08-04 22:49:30,653 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:49:35,004 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:49:40,214 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 22:49:41,749 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 22:51:19,958 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:51:29,284 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (0df05a005c073ec1e0eaa0c8f8f299a7)
+2021-08-04 22:51:33,962 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:51:37,856 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:51:41,857 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 22:51:43,488 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 22:54:25,835 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:54:36,711 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (ee7dd6bab9d44ad40f70a5968b880387)
+2021-08-04 22:54:41,940 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:54:45,887 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:54:47,300 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:54:49,900 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:55:49,167 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:55:58,579 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (d4a613fb60422fefca4af958838c154e)
+2021-08-04 22:56:04,291 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:56:08,554 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:56:10,612 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 22:56:13,652 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 22:59:36,317 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 22:59:45,864 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (0b31642cd04642b5100b41397018ff07)
+2021-08-04 22:59:51,152 INFO p.Otus [main] Запущен сайт
+2021-08-04 22:59:56,226 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 22:59:57,610 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:00:37,519 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:00:47,392 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (3f11224c7d7ef98faa9037820657616c)
+2021-08-04 23:00:52,620 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:00:56,863 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:00:58,223 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:05:21,235 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:05:30,783 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (7ae8abdff4213d0722a8090de7ba55f3)
+2021-08-04 23:05:35,712 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:05:41,625 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:05:42,958 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:05:45,721 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:08:36,652 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:08:46,770 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (09d15468adbcec1dd57af00279a586de)
+2021-08-04 23:08:51,966 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:08:55,253 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:08:57,373 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:08:59,969 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:10:57,491 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:11:08,232 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (f6d59862e01917d4f49cb9b1cf212381)
+2021-08-04 23:11:14,200 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:11:18,283 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:11:19,903 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:11:24,641 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:11:34,718 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-04 23:11:35,722 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 23:11:37,307 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 23:12:46,279 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:15:02,190 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:15:12,611 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (e312f5bb42b224d9830ad3e196c924c5)
+2021-08-04 23:15:17,776 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:15:23,229 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:15:24,922 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:15:28,124 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:15:31,386 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 23:15:33,029 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 23:16:51,780 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:17:01,808 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (e50a2387314282b2f78f211ae1ef8146)
+2021-08-04 23:17:06,903 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:17:11,681 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:17:13,472 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:17:17,927 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 23:17:19,242 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 23:17:57,254 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:18:07,167 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (303a62fd815cf6c41f604889bbd88dc6)
+2021-08-04 23:18:12,473 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:18:17,087 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:18:18,753 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:18:21,677 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:19:35,390 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:19:45,391 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (d0c60e4dda5208e6df67c092caf94519)
+2021-08-04 23:19:51,259 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:19:55,554 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:19:56,758 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:20:01,668 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:20:04,907 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:20:12,577 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-04 23:20:15,530 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-04 23:20:18,452 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-04 23:24:50,369 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:24:59,872 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (d0601ca4dc5fa98813f3d11c839d6afc)
+2021-08-04 23:25:05,163 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:25:09,720 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:25:11,301 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:25:15,378 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:25:18,087 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:25:24,787 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-04 23:25:27,915 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-04 23:25:31,017 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-04 23:25:31,578 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-04 23:25:32,246 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 23:25:38,053 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:25:39,240 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:25:42,507 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:25:42,994 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 23:25:44,570 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 23:26:39,783 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:26:49,230 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (f6355631b49a2f0f45a06c1d259e0bd8)
+2021-08-04 23:26:53,950 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:26:59,171 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:27:00,502 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:27:03,094 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:27:05,459 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:27:10,402 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-04 23:27:13,324 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-04 23:27:15,883 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-04 23:27:18,252 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-04 23:27:18,773 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 23:27:23,923 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:27:24,954 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:27:28,280 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:27:29,126 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 23:27:30,454 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 23:38:40,274 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:38:49,625 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (5afbd36b13640ca0e74aa230f569080c)
+2021-08-04 23:38:55,504 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:38:59,852 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:39:01,858 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:39:04,798 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:39:07,463 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:39:12,351 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-04 23:39:14,948 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-04 23:39:17,584 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-04 23:39:20,037 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-04 23:39:21,741 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 23:39:24,696 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:39:27,140 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:39:29,128 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:39:32,077 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:39:32,746 INFO w.BaseHooks [main] Очистка cookies
+2021-08-04 23:39:34,299 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-04 23:40:32,751 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:40:41,837 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (7e65066c4eb05ff333b4eec6448023a6)
+2021-08-04 23:40:47,259 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:40:51,602 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:40:53,941 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:40:57,350 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:40:59,391 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:41:04,156 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-04 23:41:06,953 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-04 23:41:09,503 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-04 23:41:12,148 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-04 23:41:12,443 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 23:41:14,694 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:41:18,152 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:41:20,295 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:41:23,612 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:42:09,556 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-04 23:42:19,159 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (f5000bce713310611c6d5488682d5d61)
+2021-08-04 23:42:24,042 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:42:28,146 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:42:29,395 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:42:31,805 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:42:35,146 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-04 23:42:40,204 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-04 23:42:42,975 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-04 23:42:45,783 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-04 23:42:48,336 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-04 23:42:48,601 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-04 23:42:52,241 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:42:55,271 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-04 23:42:57,254 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-04 23:42:59,711 INFO p.Otus [main] Запущен сайт
+2021-08-04 23:43:02,573 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 09:21:03,123 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 09:21:14,471 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (93336dce291d3faf1a7d51fecdbb4ef9)
+2021-08-05 09:21:22,590 INFO p.Otus [main] Запущен сайт
+2021-08-05 09:21:28,170 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 09:21:29,927 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 09:21:34,030 INFO p.Otus [main] Запущен сайт
+2021-08-05 09:21:37,392 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 09:21:42,750 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 09:21:45,957 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 09:21:48,955 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 09:21:52,454 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 09:21:52,930 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 09:21:56,995 INFO p.Otus [main] Запущен сайт
+2021-08-05 09:22:50,035 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 09:23:00,225 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (4b33669b8a1b674fee187ed93d365a1d)
+2021-08-05 09:23:06,972 INFO p.Otus [main] Запущен сайт
+2021-08-05 09:23:11,163 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 09:23:13,154 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 09:23:16,782 INFO p.Otus [main] Запущен сайт
+2021-08-05 09:23:20,249 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 09:23:20,641 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 09:23:22,599 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 09:25:51,751 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 09:26:03,183 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (04cddd640db7d671c1686956f053660e)
+2021-08-05 09:26:09,838 INFO p.Otus [main] Запущен сайт
+2021-08-05 09:26:16,480 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 09:26:17,848 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 09:26:21,928 INFO p.Otus [main] Запущен сайт
+2021-08-05 09:26:25,179 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 09:26:25,491 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 09:26:27,105 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 09:28:52,285 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 09:29:04,227 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (935e1e9c7da0beae63cfb67ab57549fc)
+2021-08-05 09:29:11,893 INFO p.Otus [main] Запущен сайт
+2021-08-05 09:29:43,836 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 09:29:46,014 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 09:29:51,018 INFO p.Otus [main] Запущен сайт
+2021-08-05 09:29:53,529 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 09:49:17,666 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 09:49:19,037 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 10:00:40,530 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 10:00:51,241 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (849b8189c5fe0f56864a2713419a5245)
+2021-08-05 10:00:58,573 INFO p.Otus [main] Запущен сайт
+2021-08-05 10:01:02,455 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 10:01:04,413 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 10:01:08,088 INFO p.Otus [main] Запущен сайт
+2021-08-05 10:01:11,110 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 10:01:11,374 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 10:01:13,022 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 10:01:57,608 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 10:02:10,155 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (eb2c048473f9f2d5baec1c13c484e5a9)
+2021-08-05 10:02:17,271 INFO p.Otus [main] Запущен сайт
+2021-08-05 10:02:21,684 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 10:02:25,819 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 10:02:29,401 INFO p.Otus [main] Запущен сайт
+2021-08-05 10:02:33,285 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 15:45:54,612 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 15:45:56,797 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 15:54:16,333 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 15:54:30,405 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (2498b4a9e3da380679797099bf62f301)
+2021-08-05 15:54:37,766 INFO p.Otus [main] Запущен сайт
+2021-08-05 15:54:46,036 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 15:54:50,080 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 15:54:55,796 INFO p.Otus [main] Запущен сайт
+2021-08-05 15:54:58,899 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 15:57:03,340 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 15:57:16,514 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (eee980d8e14ed6451a376bd7eb01c3a3)
+2021-08-05 15:57:22,998 INFO p.Otus [main] Запущен сайт
+2021-08-05 15:57:28,869 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 15:57:32,785 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 15:57:38,608 INFO p.Otus [main] Запущен сайт
+2021-08-05 15:57:41,279 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 16:03:31,863 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:03:43,261 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (428a136b90ce255182178295cfb095dd)
+2021-08-05 16:03:55,268 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 16:05:46,324 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:05:57,982 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (7458c6ae00a4d506cfff00fdb671a73c)
+2021-08-05 16:05:59,372 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 16:06:31,566 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:06:42,989 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (fe0256b01a48f7d5b6da9150ac12610a)
+2021-08-05 16:06:44,264 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 16:09:02,554 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:09:14,815 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (fc51b54b121bec83ecb4f27ebebf9614)
+2021-08-05 16:09:26,315 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 16:11:08,478 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:11:20,121 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (eed2b143dc7041c951d6f0cb960a7d27)
+2021-08-05 16:11:31,499 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 16:15:21,220 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:15:33,601 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (fa762d1e69a233491c33aef5ee1c7d1e)
+2021-08-05 16:15:41,939 INFO p.Otus [main] Запущен сайт
+2021-08-05 16:15:46,512 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 16:15:48,160 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 16:15:52,124 INFO p.Otus [main] Запущен сайт
+2021-08-05 16:15:56,665 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 16:16:03,182 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 16:16:55,581 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:17:07,499 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (e3f5c87db5e7524a99b0b52a1d38c6c5)
+2021-08-05 16:17:15,494 INFO p.Otus [main] Запущен сайт
+2021-08-05 16:17:20,723 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 16:17:22,211 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 16:17:29,101 INFO p.Otus [main] Запущен сайт
+2021-08-05 16:17:32,453 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 16:17:39,011 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 16:20:23,294 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:20:34,795 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (28c725df9a57cbd2bf776483c9a0582f)
+2021-08-05 16:20:43,986 INFO p.Otus [main] Запущен сайт
+2021-08-05 16:20:50,292 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 16:20:51,872 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 16:20:55,808 INFO p.Otus [main] Запущен сайт
+2021-08-05 16:20:58,884 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 16:20:59,130 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 16:21:00,586 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 16:23:41,014 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:23:55,972 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (6cc663014846b5d130e5c4a0fcc46c71)
+2021-08-05 16:24:03,780 INFO p.Otus [main] Запущен сайт
+2021-08-05 16:24:08,635 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 16:24:09,874 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 16:24:14,259 INFO p.Otus [main] Запущен сайт
+2021-08-05 16:24:16,765 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 16:24:16,965 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 16:24:18,377 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 16:24:32,094 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:24:44,313 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (27b7f7491c8e108278ce76e0a9710f11)
+2021-08-05 16:24:53,548 INFO p.Otus [main] Запущен сайт
+2021-08-05 16:24:58,889 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 16:25:00,398 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 16:25:06,075 INFO p.Otus [main] Запущен сайт
+2021-08-05 16:25:09,302 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 16:25:09,582 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 16:25:11,456 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 16:31:35,277 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:31:47,546 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (4ebbb8c672c6b972bd2d4282af18c907)
+2021-08-05 16:32:25,670 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 16:52:56,511 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:53:16,283 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (43976d0e4f4b8ec6d7b407e6dca18561)
+2021-08-05 16:58:12,126 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 16:58:30,470 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (7758fdea2e292ce2b5d3cb1cc47f5775)
+2021-08-05 17:06:59,915 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:07:49,158 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (57f67d8f20b892754f664d395ef6abbf)
+2021-08-05 17:07:57,984 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:08:03,360 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:08:05,149 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:08:08,622 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:08:12,990 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:08:13,280 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 17:08:14,894 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 17:10:20,921 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:10:31,635 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (6c70608d5f2e1b63f297a84d5c9a1dce)
+2021-08-05 17:10:38,131 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:10:42,937 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:10:46,647 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:10:51,541 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:10:55,594 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:13:07,960 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:13:18,666 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (bbd31784495c72845cb340d105b6119b)
+2021-08-05 17:13:28,957 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:13:33,402 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:13:35,928 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:13:39,623 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:13:42,307 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:13:43,278 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 17:13:44,727 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 17:15:15,523 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:15:26,038 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (0e842bf3bd348feee305909ef501276c)
+2021-08-05 17:15:31,750 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:15:37,939 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:15:39,141 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:15:42,445 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:15:45,805 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:15:47,143 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 17:15:48,509 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 17:22:12,237 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:22:21,895 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (3f19419941a6733ff5dee7ab049c1030)
+2021-08-05 17:22:28,331 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:22:33,391 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:22:34,716 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:22:39,215 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:22:41,738 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:22:47,070 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 17:22:50,092 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 17:22:52,868 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 17:22:55,645 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 17:22:56,042 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 17:23:01,057 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:23:05,084 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:23:06,409 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:23:10,070 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:23:12,780 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:23:13,032 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 17:23:14,684 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 17:23:57,845 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:24:07,432 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (7d24a45a6fea5c21ef868bd018a57250)
+2021-08-05 17:24:13,365 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:24:18,057 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:24:19,294 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:24:22,523 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:24:25,939 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:24:26,186 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 17:24:27,563 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 17:27:12,355 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:27:21,788 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (4d45a64329e75d48682981cfd2c5e8f2)
+2021-08-05 17:27:27,468 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:27:31,309 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:27:32,717 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:27:37,162 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:27:39,821 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:27:40,104 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 17:27:41,797 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 17:28:08,134 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:28:18,043 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (d7c02cda4b3159285299fb965bc59e9f)
+2021-08-05 17:28:50,030 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:28:53,422 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:28:57,378 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:29:00,211 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:29:02,784 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:35:29,884 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:35:39,840 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (259976be63a12ca27ac94649e00e2ee8)
+2021-08-05 17:35:46,459 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:35:50,271 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:35:53,643 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:35:57,948 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:36:00,994 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:36:01,270 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 17:36:03,018 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 17:45:32,567 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:45:43,173 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (42d83854d34a5a1eb21e81e0083eb011)
+2021-08-05 17:45:54,464 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 17:48:29,050 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:48:38,700 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (2d755410012825e8b754dcbb9957131d)
+2021-08-05 17:48:49,033 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 17:48:59,503 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:49:09,018 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (6f64b435c836d0feb5315f202feb862a)
+2021-08-05 17:49:20,252 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 17:50:20,159 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:50:29,543 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (08a187e08c763a24c0decde7dbb6ee3c)
+2021-08-05 17:50:35,570 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:50:39,521 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 17:50:40,793 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 17:50:44,964 INFO p.Otus [main] Запущен сайт
+2021-08-05 17:50:47,962 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 17:50:53,638 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 17:50:56,573 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 17:50:59,841 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 17:51:00,321 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 17:51:00,672 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 17:51:50,290 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 17:51:59,852 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (01711f0a216cf5fbb59f05289749a0c3)
+2021-08-05 17:52:11,127 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 18:02:28,359 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 18:02:38,115 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (1cf02f1a96e17500b588037da62f9f91)
+2021-08-05 18:02:50,989 INFO p.Otus [main] Запущен сайт
+2021-08-05 18:03:09,562 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 18:03:10,751 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 18:03:15,038 INFO p.Otus [main] Запущен сайт
+2021-08-05 18:03:19,436 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 18:03:25,030 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 18:03:28,764 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 18:03:32,346 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 18:03:35,831 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 18:03:36,414 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 18:13:25,714 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 18:13:35,100 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (b510810f3de97383bd2eaa2dc1bf4954)
+2021-08-05 18:13:40,793 INFO p.Otus [main] Запущен сайт
+2021-08-05 18:13:45,159 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 18:13:46,559 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 18:13:49,611 INFO p.Otus [main] Запущен сайт
+2021-08-05 18:13:52,239 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 18:13:58,082 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 18:14:01,108 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 18:14:04,037 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 18:14:06,386 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 18:14:08,767 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 18:14:11,360 INFO p.Otus [main] Запущен сайт
+2021-08-05 18:14:17,011 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 18:14:18,095 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 18:14:21,556 INFO p.Otus [main] Запущен сайт
+2021-08-05 18:14:23,828 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 18:14:24,108 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 18:14:25,473 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 19:56:03,176 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 19:56:15,514 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (0843d644b0533161a6772aeb618599b3)
+2021-08-05 19:56:23,651 INFO p.Otus [main] Запущен сайт
+2021-08-05 19:56:28,860 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 19:56:30,059 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 19:56:32,844 INFO p.Otus [main] Запущен сайт
+2021-08-05 19:56:35,202 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 19:56:41,404 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 19:56:44,296 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 19:56:47,234 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 19:56:51,599 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 19:56:52,403 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 19:56:58,316 INFO p.Otus [main] Запущен сайт
+2021-08-05 19:57:02,843 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 19:57:03,994 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 19:57:07,104 INFO p.Otus [main] Запущен сайт
+2021-08-05 19:57:09,284 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 19:57:09,514 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 19:57:11,137 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 20:20:32,313 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 20:20:43,002 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (a5a18db99cdf7bab355dc37914fa3324)
+2021-08-05 20:20:50,092 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:20:53,508 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:20:55,456 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:20:58,215 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:21:09,330 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:21:16,172 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 20:21:17,509 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 20:23:42,451 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 20:23:52,640 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (bd5a645bd28e1ecd63bd4e661f0d45f9)
+2021-08-05 20:23:57,565 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:24:02,921 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:24:04,095 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:24:06,859 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:24:08,990 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:24:15,770 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 20:24:17,020 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 20:32:36,109 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 20:32:46,405 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (ca8da20fdb3cb86a1ee64d82f08f8f33)
+2021-08-05 20:32:52,892 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:32:56,730 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:32:58,141 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:33:00,788 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:33:05,676 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:33:12,597 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 20:33:13,941 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 20:38:15,468 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 20:38:25,270 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (3b010f18c5e9082b456fb27e2973593d)
+2021-08-05 20:38:30,493 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:38:36,027 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:38:37,207 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:38:40,936 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:38:43,551 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:39:57,087 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 20:40:06,969 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (0d6a53f27a77da25490f5978df60a23b)
+2021-08-05 20:40:12,780 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:40:16,745 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:40:19,274 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:40:22,226 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:40:25,016 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:41:27,877 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 20:41:37,994 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (b5974f1a7525b0bdff1d65bfa808a902)
+2021-08-05 20:41:44,391 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:41:49,550 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:41:50,794 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:41:54,943 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:41:56,773 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:42:06,263 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 20:42:07,569 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 20:43:20,500 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 20:43:30,394 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (29241b7ce794125d51ba3037c3ce269c)
+2021-08-05 20:43:37,032 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:43:41,816 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:43:43,080 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:43:46,933 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:43:49,915 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:44:00,027 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 20:44:02,232 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 20:44:39,629 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 20:44:49,941 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (08fd70fb8ef1baa45a8db9d40e65b564)
+2021-08-05 20:44:55,990 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:45:00,954 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:45:02,190 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:45:05,107 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:45:08,066 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:45:19,477 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 20:45:22,379 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 20:45:25,585 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 20:45:29,211 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 20:47:03,584 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 20:47:13,936 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (935cd4663c361e63e3bbade0cfbaa8c4)
+2021-08-05 20:47:19,038 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:47:23,867 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:47:25,119 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:47:28,735 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:47:32,792 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:47:43,227 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 20:47:45,335 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 20:47:48,235 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 20:47:50,749 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 20:47:51,000 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 20:47:54,179 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:48:00,473 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:48:01,674 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:48:06,016 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:48:08,047 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:48:08,359 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 20:48:10,379 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 20:53:30,486 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 20:53:43,235 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (d24366cdf3928dfa0dbf196050827ba6)
+2021-08-05 20:53:50,745 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:53:55,798 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 20:53:59,072 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 20:54:02,024 INFO p.Otus [main] Запущен сайт
+2021-08-05 20:54:35,609 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 20:54:48,011 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 20:54:49,848 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 21:00:35,272 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 21:00:46,250 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (ab47f53cb5e7f1bf7188167857df5899)
+2021-08-05 21:00:53,466 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:01:24,876 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 21:01:26,972 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 21:01:31,133 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:01:34,215 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 21:01:47,168 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 21:01:49,757 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 21:01:52,185 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 21:01:57,305 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 21:01:57,662 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 21:02:02,798 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:02:07,527 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 21:02:09,569 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 21:02:13,001 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:02:15,812 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 21:02:16,172 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 21:02:17,938 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 21:13:28,258 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 21:13:39,644 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (0394f2ba4f23f1ed1203b92358034881)
+2021-08-05 21:13:46,257 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:13:53,378 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 21:13:55,495 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 21:13:58,896 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:14:02,511 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 21:14:15,620 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 21:14:17,864 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 21:14:20,206 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 21:14:23,845 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 21:14:24,113 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 21:14:28,841 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:14:32,930 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 21:14:35,230 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 21:15:07,394 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:15:10,713 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 21:15:12,462 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 21:15:14,400 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 21:19:39,843 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 21:19:53,140 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (9491e7191c914a50dccfd131fa22bec7)
+2021-08-05 21:19:53,244 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 21:19:59,652 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:20:07,366 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 21:20:09,856 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 21:20:14,324 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:20:22,913 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 21:20:23,872 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 21:20:25,487 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 21:27:18,407 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 21:27:29,428 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (ecdbb3f8bfe8b7eb0e2a23731506598d)
+2021-08-05 21:27:29,528 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 21:27:35,722 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:27:40,608 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 21:27:42,013 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 21:27:46,832 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:27:49,907 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 21:27:50,434 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 21:27:52,781 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 21:31:44,153 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 21:31:55,078 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (45017bd582770a126fb14fcde9342572)
+2021-08-05 21:31:55,182 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 21:32:02,130 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:32:08,381 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 21:32:10,283 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 21:32:14,144 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:32:17,163 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 21:32:18,255 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 21:32:19,805 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 21:38:52,834 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 21:39:04,102 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (b9078a6fdeaa01fbd545f89e715f74ea)
+2021-08-05 21:39:04,201 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 21:39:11,907 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:39:42,945 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 21:39:44,374 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 21:39:49,732 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:39:53,921 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 21:39:56,402 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 21:39:58,151 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 21:40:40,129 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 21:40:51,616 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (8330e42a433edc62c1185c6de74f02a7)
+2021-08-05 21:40:51,718 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 21:40:57,417 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:41:31,095 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 21:41:32,946 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 21:41:36,242 INFO p.Otus [main] Запущен сайт
+2021-08-05 21:41:39,248 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 21:41:42,202 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 21:41:43,663 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 22:26:22,282 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 22:26:34,005 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (290b2fbcb2c645008ff19ef3d0226e81)
+2021-08-05 22:26:34,101 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 22:26:40,391 INFO p.Otus [main] Запущен сайт
+2021-08-05 22:26:47,747 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 22:26:49,858 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 22:26:53,735 INFO p.Otus [main] Запущен сайт
+2021-08-05 22:26:57,088 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 22:27:00,326 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 22:27:02,029 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 22:28:51,006 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 22:29:35,717 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 22:29:47,100 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (f40af15c1eb78731bb88f5c1c2da33c6)
+2021-08-05 22:29:47,200 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 22:29:53,144 INFO p.Otus [main] Запущен сайт
+2021-08-05 22:29:57,187 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 22:29:59,468 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 22:30:03,717 INFO p.Otus [main] Запущен сайт
+2021-08-05 22:30:07,541 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 22:30:10,906 INFO p.PersonalPage [main] Контакт "Facebook" равен facebook
+2021-08-05 22:30:11,375 INFO p.PersonalPage [main] Контакт "OK" равен ok
+2021-08-05 22:30:11,865 INFO p.PersonalPage [main] Контакт "VK" равен vk
+2021-08-05 22:30:12,150 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 22:30:13,848 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-05 22:34:14,496 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 22:34:26,411 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (7b1b4244a341fe803cb3e40e76a877bf)
+2021-08-05 22:34:34,673 INFO p.Otus [main] Запущен сайт
+2021-08-05 22:34:41,360 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 22:34:43,502 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 22:34:57,979 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-05 22:35:09,761 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (9a20fbac5705a83fdb294e3b74f93a4c)
+2021-08-05 22:35:16,181 INFO p.Otus [main] Запущен сайт
+2021-08-05 22:35:23,599 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 22:35:25,188 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 22:35:28,637 INFO p.Otus [main] Запущен сайт
+2021-08-05 22:35:32,049 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 22:35:35,611 INFO p.PersonalPage [main] Заполняем Имя
+2021-08-05 22:35:36,488 INFO p.PersonalPage [main] Заполняем Имя на латинице
+2021-08-05 22:35:37,341 INFO p.PersonalPage [main] Заполняем Фамилию
+2021-08-05 22:35:37,954 INFO p.PersonalPage [main] Заполняем Фамилию на латинице
+2021-08-05 22:35:38,714 INFO p.PersonalPage [main] Заполняем Имя в блоге
+2021-08-05 22:35:39,749 INFO p.PersonalPage [main] Заполняем дату рождения
+2021-08-05 22:35:40,585 INFO p.PersonalPage [main] Заполняем компанию
+2021-08-05 22:35:41,295 INFO p.PersonalPage [main] Заполняем должность
+2021-08-05 22:35:44,628 INFO p.PersonalPage [main] Добавлен новый контакт: "Facebook" = facebook
+2021-08-05 22:35:46,707 INFO p.PersonalPage [main] Добавлен новый контакт: "OK" = ok
+2021-08-05 22:35:48,896 INFO p.PersonalPage [main] Добавлен новый контакт: "VK" = vk
+2021-08-05 22:35:51,503 INFO p.PersonalPage [main] Сохраняем данные
+2021-08-05 22:35:51,754 INFO Lesson12 [main] Открыта новая сессия браузера
+2021-08-05 22:35:56,534 INFO p.Otus [main] Запущен сайт
+2021-08-05 22:36:01,609 INFO p.LoginPage [main] Открыта страница авторизации
+2021-08-05 22:36:03,048 INFO p.LoginPage [main] Ввели логин и пароль
+2021-08-05 22:36:07,312 INFO p.Otus [main] Запущен сайт
+2021-08-05 22:36:10,328 INFO p.PersonalPage [main] Открыта страница персональных данных
+2021-08-05 22:36:13,222 INFO p.PersonalPage [main] Контакт "Facebook" равен facebook
+2021-08-05 22:36:13,629 INFO p.PersonalPage [main] Контакт "OK" равен ok
+2021-08-05 22:36:14,013 INFO p.PersonalPage [main] Контакт "VK" равен vk
+2021-08-05 22:36:14,238 INFO w.BaseHooks [main] Очистка cookies
+2021-08-05 22:36:15,820 INFO w.BaseHooks [main] Закрытие браузера 
+
+
