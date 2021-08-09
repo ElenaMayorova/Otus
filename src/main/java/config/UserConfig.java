@@ -6,7 +6,6 @@ import org.aeonbits.owner.Config.Sources;
 @Sources("classpath:users_data.properties")
 public interface UserConfig extends Config {
 
-
     @Key("otus_login")
     String otusLogin();
 

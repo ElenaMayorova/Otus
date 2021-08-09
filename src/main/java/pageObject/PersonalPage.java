@@ -48,6 +48,7 @@ public class PersonalPage extends AbstractPage {
         logger.info("Заполняем Имя на латинице");
         return this;
     }
+
     public PersonalPage enterLocalSecondName(String localSecondName) {
         fillField(LOCAL_SECOND_NAME, localSecondName);
         logger.info("Заполняем Фамилию");
@@ -88,6 +89,7 @@ public class PersonalPage extends AbstractPage {
     public String getElementText(By locator) {
         return getVisibilityElement(locator).getText();
     }
+
     public String getElementValue(By locator) {
         return getVisibilityElement(locator).getAttribute("value");
     }
@@ -111,12 +113,11 @@ public class PersonalPage extends AbstractPage {
         logger.info("Сохраняем данные");
     }
 
-
     public void fillField(By locator, String value) {
         getClickableElement(locator).clear();
         getClickableElement(locator).sendKeys(value);
     }
- 
+
     public void selectDropdownValue(By locator, String value) {
         Actions actions = new Actions(driver);
         actions.moveToElement(getClickableElement(locator)).click().perform();
@@ -131,6 +132,7 @@ public class PersonalPage extends AbstractPage {
         page.fillField(By.xpath(String.format(PersonalPage.CONTACT_FIELD_PATTERN, contactOrder)), contact);
         logger.info("Добавлен новый контакт: \"{}\" = {}", contactType, contact);
     }
+
     public void checkContactInfo(int contactOrder, String expectedContactType, String expectedVal, PersonalPage page) {
         String currentContactType = page.getElementText(
                 By.xpath(String.format(PersonalPage.CONTACT_TYPE_PATTERN, contactOrder)));

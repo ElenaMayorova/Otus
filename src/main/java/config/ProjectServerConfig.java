@@ -14,4 +14,3 @@ public interface ProjectServerConfig extends Config {
     @Key("urlyandex")
     String urlyandex();
 }
-

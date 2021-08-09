@@ -67,5 +67,4 @@ public class Lesson12 extends BaseHooks {
                 () -> personalPage.checkContactInfo(2, "VK", userConfig.vkcontact(), personalPage)
         );
     }
-
 }

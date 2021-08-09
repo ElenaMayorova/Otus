@@ -16,5 +16,4 @@ public interface WebsiteConfig extends Config {
 
     @Key("browser")
     String browser();
-
 }

@@ -31,5 +31,4 @@ public class Otus extends AbstractPage {
         logger.info("Открыт раздел \"Вход и регистрация\"");
         return this;
     }
-
 }
