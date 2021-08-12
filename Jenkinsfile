@@ -38,7 +38,7 @@ pipeline {
             post {
                 always {
                     script {
- //                       step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "${params.EMAIL_RECIPIENT}", sendToIndividuals: true])
+                        step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "${params.EMAIL_RECIPIENT}", sendToIndividuals: true])
 
                         // Формирование отчета
                         allure([
@@ -75,4 +75,3 @@ pipeline {
         }
     }
 }
-
