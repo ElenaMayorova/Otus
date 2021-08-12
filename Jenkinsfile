@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Run maven clean test') {
             steps {
-                bat 'mvn clean test -Dbrowser_name=$BROWSER_NAME -Dbrowser_version=$BROWSER_VERSION'
+                bat 'mvn clean test -Dtest=Lesson7 -Dbrowser_name=$BROWSER_NAME -Dbrowser_version=$BROWSER_VERSION'
             }
         }
         stage('Backup and Reports') {
