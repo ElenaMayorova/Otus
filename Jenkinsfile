@@ -30,38 +30,6 @@ pipeline {
                 sh 'mvn clean test -Dbrowser_name=$BROWSER_NAME -Dbrowser_version=$BROWSER_VERSION'
             }
         }
-        stage('Backup and Reports') {
-            steps {
-                archiveArtifacts artifacts: '**/target/', fingerprint: true
-            }
-            post {
-                always {
-                  script {
 
-                    // Формирование отчета
-                    allure([
-                      includeProperties: false,
-                      jdk: '',
-                      properties: [],
-                      reportBuildPolicy: 'ALWAYS',
-                      results: [[path: 'target/allure-results']]
-                    ])
-                    println('allure report created')
-
-                    // Узнаем ветку репозитория
-                    def branch = sh(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
-                    println("branch= " + branch)
-
-                    // Достаем информацию по тестам из junit репорта
-                    def summary = junit testResults: '**/target/surefire-reports/*.xml'
-                    println("summary generated")
-
-                    sendNotifications()
-
-
-                  }
-                }
-            }
-        }
     }
 }
