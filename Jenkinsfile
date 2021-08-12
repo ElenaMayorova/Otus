@@ -38,9 +38,8 @@ pipeline {
             post {
                 always {
                     script {
-                        step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "${params.EMAIL_RECIPIENT}", sendToIndividuals: true])
 
-                        // Формирование отчета
+                         // Формирование отчета
                         allure([
                                 includeProperties: false,
                                 jdk: '',
