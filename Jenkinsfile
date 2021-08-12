@@ -23,15 +23,7 @@ pipeline {
     }
 
     stages {
-        stage('Pull from GitHub') {
-            steps {
-                slackSend(message: "Notification from Jenkins Pipeline")
-                git ([
-                    url: "${params.GIT_URL}",
-                    branch: "${params.GIT_BRANCH}"
-                    ])
-            }
-        }
+
         stage('Run maven clean test') {
             steps {
 		// sh меняем на bat, если операционная система Windows
