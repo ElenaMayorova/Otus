@@ -62,20 +62,28 @@ pipeline {
                         def summary = junit testResults: '**/target/surefire-reports/*.xml'
                         println("summary generated")
 
-                        // Текст оповещения
-                        def message = "${currentBuild.currentResult}: Job ${env.JOB_NAME}, build ${env.BUILD_NUMBER}, branch ${branch}\nTest Summary - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}\nMore info at: ${env.BUILD_URL}\nElapsed: ${currentBuild.durationString}"
-                        println("message= " + message)
-                        slackSend color: 'good', message: message
+                           // Текст оповещения
+                                            def sendNotifications() {
+                        		    def summary = junit testResults: '**/target/surefire-reports/*.xml'
 
-                        emailext body: '''${SCRIPT, template="groovy-html.template"}''',
-                                mimeType: 'text/html',
-                                subject: "[Jenkins] ${currentBuild.fullDisplayName}",
-                                to: "${params.EMAIL_RECIPIENT}",
-                                replyTo: "${params.EMAIL_RECIPIENT}",
-                                recipientProviders: [[$class: 'CulpritsRecipientProvider']]
-                    }
-                }
-            }
-        }
-    }
-}
+                        		    def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
+                        		    def emailMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}, Branch ${branch}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
+
+                        		    emailext (
+                        		        subject: "Jenkins Report",
+                        		        body: emailMessage,
+                        		        to: "${EMAIL_TO}",
+                        		        from: "jenkins@code-maven.com"
+                            		    )
+
+                        		    def colorCode = '#FF0000'
+                        		    def slackMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}. \nTotal = ${summary.totalCount}, Failures = ${summary.failCount}, Skipped = ${summary.skipCount}, Passed = ${summary.passCount} \nMore info at: ${env.BUILD_URL}"
+
+                        		    slackSend(color: colorCode, message: slackMessage)
+                        		    }
+                                          }
+                                        }
+                                    }
+                                }
+                            }
+                        }
