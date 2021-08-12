@@ -7,15 +7,11 @@ pipeline {
     triggers {
         githubPush()
     }
-    environment {
-        LC_ALL = 'en_US.UTF-8'
-        LANG    = 'en_US.UTF-8'
-        LANGUAGE = 'en_US.UTF-8'
-        EMAIL_TO = 'otuslogintest@gmail.com'
-    }
+
     parameters {
         string(name: 'GIT_URL', defaultValue: 'https://github.com/ElenaMayorova/Otus.git', description: 'The target git url')
         string(name: 'GIT_BRANCH', defaultValue: 'master', description: 'The target git branch')
+        string(name: 'EMAIL_RECIPIENT', defaultValue: 'otuslogintest@gmail.com', description: 'Default recipient')
         choice(name: 'BROWSER_NAME', choices: ['chrome', 'firefox'], description: 'Pick the target browser in Selenoid')
         choice(name: 'BROWSER_VERSION', choices: ['86.0', '92.0', '85.0'], description: 'Pick the target browser version in Selenoid')
     }
@@ -38,13 +34,13 @@ pipeline {
         stage('Backup and Reports') {
             steps {
                 archiveArtifacts artifacts: '**/target/', fingerprint: true
-                slackSend(message: "Jenkins is end ")
             }
             post {
                 always {
                     script {
+ //                       step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "${params.EMAIL_RECIPIENT}", sendToIndividuals: true])
 
-                         // Формирование отчета
+                        // Формирование отчета
                         allure([
                                 includeProperties: false,
                                 jdk: '',
@@ -62,28 +58,20 @@ pipeline {
                         def summary = junit testResults: '**/target/surefire-reports/*.xml'
                         println("summary generated")
 
-                           // Текст оповещения
-                                            def sendNotifications() {
-                        		    def summary = junit testResults: '**/target/surefire-reports/*.xml'
+                        // Текст оповещения
+                        def message = "${currentBuild.currentResult}: Job ${env.JOB_NAME}, build ${env.BUILD_NUMBER}, branch ${branch}\nTest Summary - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}\nMore info at: ${env.BUILD_URL}\nElapsed: ${currentBuild.durationString}"
+                        println("message= " + message)
+                        slackSend color: 'good', message: message
 
-                        		    def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
-                        		    def emailMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}, Branch ${branch}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
-
-                        		    emailext (
-                        		        subject: "Jenkins Report",
-                        		        body: emailMessage,
-                        		        to: "${EMAIL_TO}",
-                        		        from: "jenkins@code-maven.com"
-                            		    )
-
-                        		    def colorCode = '#FF0000'
-                        		    def slackMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}. \nTotal = ${summary.totalCount}, Failures = ${summary.failCount}, Skipped = ${summary.skipCount}, Passed = ${summary.passCount} \nMore info at: ${env.BUILD_URL}"
-
-                        		    slackSend(color: colorCode, message: slackMessage)
-                        		    }
-                                          }
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                        emailext body: '''${SCRIPT, template="groovy-html.template"}''',
+                                mimeType: 'text/html',
+                                subject: "[Jenkins] ${currentBuild.fullDisplayName}",
+                                to: "${params.EMAIL_RECIPIENT}",
+                                replyTo: "${params.EMAIL_RECIPIENT}",
+                                recipientProviders: [[$class: 'CulpritsRecipientProvider']]
+                    }
+                }
+            }
+        }
+    }
+}
