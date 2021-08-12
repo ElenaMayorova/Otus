@@ -11,7 +11,7 @@ pipeline {
     parameters {
         string(name: 'GIT_URL', defaultValue: 'https://github.com/ElenaMayorova/Otus.git', description: 'The target git url')
         string(name: 'GIT_BRANCH', defaultValue: 'master', description: 'The target git branch')
-        string(name: 'EMAIL_RECIPIENT', defaultValue: 'otusemail@mail.ru', description: 'Default recipient')
+        string(name: 'EMAIL_RECIPIENT', defaultValue: 'otuslogintest@gmail.com', description: 'Default recipient')
         choice(name: 'BROWSER_NAME', choices: ['chrome', 'firefox'], description: 'Pick the target browser in Selenoid')
         choice(name: 'BROWSER_VERSION', choices: ['86.0', '92.0', '85.0'], description: 'Pick the target browser version in Selenoid')
     }
