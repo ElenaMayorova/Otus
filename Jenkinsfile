@@ -16,7 +16,7 @@ environment {
     parameters {
         string(name: 'GIT_URL', defaultValue: 'https://github.com/ElenaMayorova/Otus.git', description: 'The target git url')
         string(name: 'GIT_BRANCH', defaultValue: 'master', description: 'The target git branch')
- //       string(name: 'EMAIL_RECIPIENT', defaultValue: 'otuslogintest@gmail.com', description: 'Default recipient')
+        string(name: 'EMAIL_RECIPIENT', defaultValue: 'otuslogintest@gmail.com', description: 'Default recipient')
         choice(name: 'BROWSER_NAME', choices: ['chrome', 'firefox'], description: 'Pick the target browser in Selenoid')
         choice(name: 'BROWSER_VERSION', choices: ['86.0', '92.0', '85.0'], description: 'Pick the target browser version in Selenoid')
     }
@@ -45,6 +45,7 @@ environment {
             post {
                 always {
                     script {
+                        step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "${params.EMAIL_RECIPIENT}", sendToIndividuals: true])
 
                         // Формирование отчета
                         allure([
@@ -69,24 +70,12 @@ environment {
                         println("message= " + message)
                         slackSend color: 'good', message: message
 
-             //           emailext body: '''${SCRIPT, template="groovy-html.template"}''',
-             //                   mimeType: 'text/html',
-             //                   subject: "[Jenkins] ${currentBuild.fullDisplayName}",
-              //                  to: "${params.EMAIL_RECIPIENT}",
-             //                   replyTo: "${params.EMAIL_RECIPIENT}",
-             //                   recipientProviders: [[$class: 'CulpritsRecipientProvider']]
-
-             emailext (
-             		        subject: "Jenkins Report",
-             		        body: emailMessage,
-             		        to: "${EMAIL_TO}",
-             		        from: "jenkins@code-maven.com"
-                 		    )
-
-             		    def colorCode = '#FF0000'
-             		    def slackMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}. \nTotal = ${summary.totalCount}, Failures = ${summary.failCount}, Skipped = ${summary.skipCount}, Passed = ${summary.passCount} \nMore info at: ${env.BUILD_URL}"
-
-             		    slackSend(color: colorCode, message: slackMessage)
+                        emailext body: '''${SCRIPT, template="groovy-html.template"}''',
+                                mimeType: 'text/html',
+                                subject: "[Jenkins] ${currentBuild.fullDisplayName}",
+                                to: "${params.EMAIL_RECIPIENT}",
+                                replyTo: "${params.EMAIL_RECIPIENT}",
+                                recipientProviders: [[$class: 'CulpritsRecipientProvider']]
                     }
                 }
             }
