@@ -63,9 +63,6 @@ environment {
  //       to: "otuslogintest@gmail.com",
  //       from: "jenkins@code-maven.com"    )
 
-
-
-
     def colorCode = '#FF0000'
     if (currentBuild.currentResult == 'SUCCESS') {
         colorCode = '#00FF00'
@@ -98,16 +95,8 @@ environment {
 
 
     }
-
-      def colorCode = '#FF0000'
-        if (currentBuild.currentResult == 'SUCCESS') {
-            colorCode = '#00FF00'
-        }
-        def slackMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
-        slackSend(color: colorCode, message: slackMessage)
-        
                 mail to: 'otuslogintest@gmail.com', from: 'jenkins@example.com',
-                                subject: "Example Build: ${env.JOB_NAME} -Faild",
+                                subject: "Example Build: ${env.JOB_NAME}",
                                 body: "Job  - \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER}\n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
 
                 }
