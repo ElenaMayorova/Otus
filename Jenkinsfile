@@ -81,16 +81,7 @@ environment {
  //                                                                        }
 
 
-                    // Формирование отчета allure
-                        println("Generate Allure")
-                        allure([
-                            includeProperties: false,
-                            jdk: '',
-                            properties: [],
-                            reportBuildPolicy: 'ALWAYS',
-                            results: [[path: 'target/allure-results']]
-                        ])
-                       println('allure report created')
+
 
 
                 mail to: 'otuslogintest@gmail.com', from: 'jenkins@example.com',
@@ -102,6 +93,17 @@ environment {
 
 
 }
+steps {
+   // Формирование отчета allure
+                        println("Generate Allure")
+                        allure([
+                            includeProperties: false,
+                            jdk: '',
+                            properties: [],
+                            reportBuildPolicy: 'ALWAYS',
+                            results: [[path: 'target/allure-results']]
+                        ])
+                       println('allure report created')}
 
             }
         }
