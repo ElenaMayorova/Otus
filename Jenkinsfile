@@ -87,18 +87,13 @@ environment {
  //                                                                 } else {
   //                                                               step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "otuslogintest@gmail.com", sendToIndividuals: true])
  //                                                                        }
-                    }
-                }
 
 
- failure {
-  if (currentBuild.currentResult == 'SUCCESS') {
+ failure {  if (currentBuild.currentResult == 'SUCCESS') {
              mail to: 'otuslogintest@gmail.com', from: 'jenkins@example.com',
                  subject: "Example Build: ${env.JOB_NAME} - Passed",
                  body: "Job SUCCESS - \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER}\n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
-                }
-
- else {
+                } else {
  mail to: 'otuslogintest@gmail.com', from: 'jenkins@example.com',
                   subject: "Example Build: ${env.JOB_NAME} - faild",
                   body: "Job Faild- \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER}\n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
@@ -106,6 +101,8 @@ environment {
 }
 }
 
+    }
+                }
 
 
             }
