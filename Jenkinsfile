@@ -67,7 +67,7 @@
                             sendNotifications()
 
                             // Текст оповещения
-                            def sendNotifications("Test") {
+                            def sendNotifications() {
         		    def summary = junit testResults: '**/target/surefire-reports/*.xml'
 
         		    def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
