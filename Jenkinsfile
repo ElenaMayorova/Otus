@@ -41,8 +41,6 @@ environment {
             slackSend(message: "Backup and Reports...")
                 archiveArtifacts artifacts: 'target/**/*.*', fingerprint: true
 
-    //        post {
-    //            always {
                 script {
                     // Узнаем ветку репозитория
                                           def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
@@ -54,15 +52,6 @@ environment {
                                           def message = "${currentBuild.currentResult}: Job ${env.JOB_NAME}, build ${env.BUILD_NUMBER}, branch ${branch}\nTest Summary - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}\nMore info at: ${env.BUILD_URL}"
                                            println("message= " + message)
 
-
- //            def emailMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}, Branch ${branch}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
- //  println ("email message=" + emailMessage )
-//    emailext(
-//        subject: "Jenkins Report",
-//        body: emailMessage,
- //       to: "otuslogintest@gmail.com",
- //       from: "jenkins@code-maven.com"    )
-
     def colorCode = '#FF0000'
     if (currentBuild.currentResult == 'SUCCESS') {
         colorCode = '#00FF00'
@@ -71,27 +60,10 @@ environment {
     def slackMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
     slackSend(color: colorCode, message: slackMessage)
 
-
-
-
-// if (currentBuild.currentResult == 'SUCCESS') {
- //                                                                 step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "otuslogintest@gmail.com", sendToIndividuals: true])
- //                                                                 } else {
-  //                                                               step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "otuslogintest@gmail.com", sendToIndividuals: true])
- //                                                                        }
-
-
-
-
-
                 mail to: 'otuslogintest@gmail.com', from: 'jenkins@example.com',
                                 subject: "Build: ${env.JOB_NAME}- ${currentBuild.currentResult}",
                                 body: "Job  - \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER}\n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
     }
-   //}
-   //             }
-
-
 }
  }
  stage('Allure'){
@@ -107,8 +79,6 @@ steps {
                         ])
                        println('allure report created')}
                        }
-
-
-        }
+                              }
     }
 
