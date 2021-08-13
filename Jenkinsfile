@@ -53,9 +53,9 @@ environment {
                     // Текст оповещения
                                           def message = "${currentBuild.currentResult}: Job ${env.JOB_NAME}, build ${env.BUILD_NUMBER}, branch ${branch}\nTest Summary - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}\nMore info at: ${env.BUILD_URL}"
                                           if (currentBuild.currentResult == 'SUCCESS') {
-                                          step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "auslonceva@ya.ru", sendToIndividuals: true])
+                                          step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "otuslogintest@gmail.com", sendToIndividuals: true])
                                           } else {
-                                         step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "auslonceva@ya.ru", sendToIndividuals: true])
+                                         step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "otuslogintest@gmail.com", sendToIndividuals: true])
                                                  }
                     // Формирование отчета allure
                         allure([
@@ -81,7 +81,7 @@ environment {
 emaitext (
         subject: "Jenkins Report",
         body: emailMessage,
-        to: "auslonceva@ya.ru",
+        to: "otuslogintest@gmail.com",
         from: "jenkins@code-maven.com"
     )
     def colorCode = '#FF0000'
