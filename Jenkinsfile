@@ -33,11 +33,13 @@ environment {
         }
         stage('Run maven clean test') {
             steps {
+            slackSend(message: "Run maven clean test...")
                 sh 'mvn clean test -Dtest=Lesson7 -Dbrowser_name=$BROWSER_NAME -Dbrowser_version=$BROWSER_VERSION'
             }
         }
         stage('Backup and Reports') {
             steps {
+            slackSend(message: "Backup and Reports...")
                 archiveArtifacts artifacts: '**/target/', fingerprint: true
             }
             post {
