@@ -46,9 +46,7 @@ environment {
 
                 always {
                     script {
-
-                        // Формирование отчета
-                        allure([
+allure([
                                 includeProperties: false,
                                 jdk: '',
                                 properties: [],
@@ -56,33 +54,23 @@ environment {
                                 results: [[path: 'target/allure-results']]
                         ])
                         println('allure report created')
+                        // Формирование отчета
+                      slackSend(  allure([
+                                includeProperties: false,
+                                jdk: '',
+                                properties: [],
+                                reportBuildPolicy: 'ALWAYS',
+                                results: [[path: 'target/allure-results']]
+                        ])
+                        println('allure report created'))
 
 
   failure {
                         mail to: 'otuslogintest@gmail.com', from: 'jenkins@example.com',
                             subject: "Build: ${env.JOB_NAME}",
-                            body: "Job  \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER} Status: ${currentBuild.result} \n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
+                            body: "Job  \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER} \n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
                     }
 
-                        // Узнаем ветку репозитория
-                        def branch = sh(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
-                        println("branch= " + branch)
-
-                        // Достаем информацию по тестам из junit репорта
-                        def summary = junit testResults: '**/target/surefire-reports/*.xml'
-                        println("summary generated")
-
-                        // Текст оповещения
-                        def message = "${currentBuild.currentResult}: Job ${env.JOB_NAME}, build ${env.BUILD_NUMBER}, branch ${branch}\nTest Summary - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}\nMore info at: ${env.BUILD_URL}\nElapsed: ${currentBuild.durationString}"
-                        println("message= " + message)
-                        slackSend color: 'good', message: message
-
-                        emailext body: '''${SCRIPT, template="groovy-html.template"}''',
-                                mimeType: 'text/html',
-                                subject: "[Jenkins] ${currentBuild.fullDisplayName}",
-                                to: "${params.EMAIL_RECIPIENT}",
-                                replyTo: "${params.EMAIL_RECIPIENT}",
-                                recipientProviders: [[$class: 'CulpritsRecipientProvider']]
                     }
                 }
             }
