@@ -1,12 +1,12 @@
 pipeline {
     agent any
-    tools {
-        maven 'maven 3.6.3'
-    }
 
-    triggers {
-        githubPush()
+    tools {
+            maven 'maven 3.6.3'
     }
+    triggers {
+            githubPush()
+        }
 environment {
         LC_ALL = 'en_US.UTF-8'
         LANG    = 'en_US.UTF-8'
@@ -14,58 +14,82 @@ environment {
         EMAIL_TO = 'otuslogintest@gmail.com'
     }
     parameters {
-        string(name: 'GIT_URL', defaultValue: 'https://github.com/ElenaMayorova/Otus.git', description: 'The target git url')
-        string(name: 'GIT_BRANCH', defaultValue: 'master', description: 'The target git branch')
-        string(name: 'EMAIL_RECIPIENT', defaultValue: 'otuslogintest@gmail.com', description: 'Default recipient')
-        choice(name: 'BROWSER_NAME', choices: ['chrome', 'firefox'], description: 'Pick the target browser in Selenoid')
-        choice(name: 'BROWSER_VERSION', choices: ['86.0', '92.0', '85.0'], description: 'Pick the target browser version in Selenoid')
+            string(name: 'GIT_URL', defaultValue: 'https://github.com/ElenaMayorova/Otus.git', description: 'The target git url')
+            string(name: 'GIT_BRANCH', defaultValue: 'master', description: 'The target git branch')
+            string(name: 'EMAIL_NOTIFICATION', defaultValue: 'otuslogintest@gmail.com', description: 'default email')
     }
 
     stages {
         stage('Pull from GitHub') {
             steps {
-                slackSend(message: "Jenkins in progress ...")
+            slackSend(message: "Jenkins in progress ...")
                 git ([
-                        url: "${params.GIT_URL}",
-                        branch: "${params.GIT_BRANCH}"
-                ])
+                    url: "${params.GIT_URL}",
+                    branch: "${params.GIT_BRANCH}"
+                    ])
             }
         }
-        stage('Run maven clean test') {
-            steps {
-            slackSend(message: "Run maven clean test...")
-                sh 'mvn clean test -Dtest=Lesson7 -Dbrowser_name=$BROWSER_NAME -Dbrowser_version=$BROWSER_VERSION'
-            }
-        }
+          stage('Run maven clean test') {
+              steps {
+              slackSend(message: "Run maven clean test...")
+                  sh 'mvn clean test -Dtest=Lesson7 -Dbrowser_name=$BROWSER_NAME -Dbrowser_version=$BROWSER_VERSION'
+              }
+          }
+
         stage('Backup and Reports') {
             steps {
             slackSend(message: "Backup and Reports...")
-                archiveArtifacts artifacts: '**/target/', fingerprint: true
+                archiveArtifacts artifacts: 'target/**/*.*', fingerprint: true
             }
             post {
-
                 always {
                     script {
-                    // Формирование отчета
-                allure([
-                                includeProperties: false,
-                                jdk: '',
-                                properties: [],
-                                reportBuildPolicy: 'ALWAYS',
-                                results: [[path: 'target/allure-results']]
+                    // Узнаем ветку репозитория
+                                          def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
+                                          println("branch= " + branch)
+                    // Достаем информацию по тестам из junit репорта
+                                          def summary = junit testResults: '**/target/surefire-reports/*.xml'
+                                          println("summary generated")
+                    // Текст оповещения
+                                          def message = "${currentBuild.currentResult}: Job ${env.JOB_NAME}, build ${env.BUILD_NUMBER}, branch ${branch}\nTest Summary - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}\nMore info at: ${env.BUILD_URL}"
+                                          if (currentBuild.currentResult == 'SUCCESS') {
+                                          step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "auslonceva@ya.ru", sendToIndividuals: true])
+                                          } else {
+                                         step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "auslonceva@ya.ru", sendToIndividuals: true])
+                                                 }
+                    // Формирование отчета allure
+                        allure([
+                            includeProperties: false,
+                            jdk: '',
+                            properties: [],
+                            reportBuildPolicy: 'ALWAYS',
+                            results: [[path: 'target/allure-results']]
                         ])
-                        println('allure report created')
-                        // Формирование отчета
-                        failure {
-                        mail to: 'otuslogintest@gmail.com', from: 'jenkins@example.com',
-                            subject: "Build: ${env.JOB_NAME}",
-                            body: "Job  \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER} \n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
-                    }
 
+                        sendNotification()
                     }
                 }
             }
         }
     }
-}
+ }
 
+ def sendNotification() {
+    def summary = junit testResults: '**/target/surefire-reports/*.xml'
+    def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
+    def emailMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}, Branch ${branch}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
+emaitext (
+        subject: "Jenkins Report",
+        body: emailMessage,
+        to: "auslonceva@ya.ru",
+        from: "jenkins@code-maven.com"
+    )
+    def colorCode = '#FF0000'
+    if (currentBuild.currentResult == 'SUCCESS') {
+        colorCode = '#00FF00'
+    }
+
+    def slackMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
+
+    slackSend(color: colorCode, message: slackMessage)
+ }
