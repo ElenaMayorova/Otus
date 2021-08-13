@@ -41,9 +41,9 @@ environment {
             slackSend(message: "Backup and Reports...")
                 archiveArtifacts artifacts: 'target/**/*.*', fingerprint: true
             }
-            post {
-                always {
-                    script {
+    //        post {
+    //            always {
+     //               script {
                     // Узнаем ветку репозитория
                                           def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
                                           println("branch= " + branch)
@@ -67,6 +67,7 @@ environment {
     if (currentBuild.currentResult == 'SUCCESS') {
         colorCode = '#00FF00'
     }
+
     def slackMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
     slackSend(color: colorCode, message: slackMessage)
 
@@ -91,15 +92,15 @@ environment {
                         ])
                        println('allure report created')
 
-    }
+ //   }
                 mail to: 'otuslogintest@gmail.com', from: 'jenkins@example.com',
                                 subject: "Build: ${env.JOB_NAME}- ${currentBuild.currentResult}",
                                 body: "Job  - \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER}\n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
 
-                }
+   //             }
 
 
-}
+//}
 
             }
         }
