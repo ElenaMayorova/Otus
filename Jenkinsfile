@@ -55,7 +55,7 @@ environment {
                                            println("message= " + message)
 
                     // Формирование отчета allure
-                        println("начинаем формировать Allure")
+                        println("Generate Allure")
                         allure([
                             includeProperties: false,
                             jdk: '',
@@ -65,25 +65,13 @@ environment {
                         ])
                        println('allure report created')
 
-             println("отправка результатов алюра в слак")
-slackSend (  allure([
-                                       includeProperties: false,
-                                       jdk: '',
-                                       properties: [],
-                                       reportBuildPolicy: 'ALWAYS',
-                                       results: [[path: 'target/allure-results']]
-                                   ])
-                                    )
-
-
-
-      def emailMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}, Branch ${branch}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
-   println ("email message=" + emailMessage )
-    emailext(
-        subject: "Jenkins Report",
-        body: emailMessage,
-        to: "otuslogintest@gmail.com",
-        from: "jenkins@code-maven.com"    )
+ //            def emailMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}, Branch ${branch}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
+ //  println ("email message=" + emailMessage )
+//    emailext(
+//        subject: "Jenkins Report",
+//        body: emailMessage,
+ //       to: "otuslogintest@gmail.com",
+ //       from: "jenkins@code-maven.com"    )
 
     def colorCode = '#FF0000'
     if (currentBuild.currentResult == 'SUCCESS') {
