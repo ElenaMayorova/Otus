@@ -67,12 +67,9 @@
                             sendNotifications()
 
                             // Текст оповещения
-                            def sendNotifications() {
-        		    def summary = junit testResults: '**/target/surefire-reports/*.xml'
-
-        		    def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
-        		    def emailMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}, Branch ${branch}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
-
+                                                   def message = "${currentBuild.currentResult}: Job ${env.JOB_NAME}, build ${env.BUILD_NUMBER}, branch ${branch}\nTest Summary - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}\nMore info at: ${env.BUILD_URL}\nElapsed: ${currentBuild.durationString}"
+                                                   println("message= " + message)
+                                                   slackSend color: 'good', message: message
         		    emailext (
         		        subject: "Jenkins Report",
         		        body: emailMessage,
