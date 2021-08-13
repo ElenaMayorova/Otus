@@ -40,7 +40,7 @@ environment {
             steps {
             slackSend(message: "Backup and Reports...")
                 archiveArtifacts artifacts: 'target/**/*.*', fingerprint: true
-            }
+
     //        post {
     //            always {
                 script {
@@ -97,10 +97,11 @@ environment {
                                 subject: "Build: ${env.JOB_NAME}- ${currentBuild.currentResult}",
                                 body: "Job  - \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER}\n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
     }
+   //}
    //             }
 
 
-//}
+}
 
             }
         }
