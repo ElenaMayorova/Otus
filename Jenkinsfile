@@ -94,7 +94,7 @@ environment {
 
 }
  }
- stage('Allure')
+ stage('Allure'){
 steps {
    // Формирование отчета allure
                         println("Generate Allure")
