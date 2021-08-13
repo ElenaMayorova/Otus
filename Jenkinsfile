@@ -93,6 +93,8 @@ environment {
 
 
 }
+ }
+ stage('Allure')
 steps {
    // Формирование отчета allure
                         println("Generate Allure")
@@ -104,8 +106,9 @@ steps {
                             results: [[path: 'target/allure-results']]
                         ])
                        println('allure report created')}
+                       }
 
-            }
+
         }
     }
 
