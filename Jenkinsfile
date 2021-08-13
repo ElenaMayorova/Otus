@@ -72,7 +72,8 @@ slackSend (  allure([
                                        properties: [],
                                        reportBuildPolicy: 'ALWAYS',
                                        results: [[path: 'target/allure-results']]
-                                   ]))
+                                   ])
+                                    println('allure report created'))
 
                        println('allure report created')
 
