@@ -43,11 +43,6 @@ environment {
                 archiveArtifacts artifacts: '**/target/', fingerprint: true
             }
             post {
-                               failure {
-                        mail to: 'otuslogintest@gmail.com', from: 'jenkins@example.com',
-                            subject: "Example Build: ${env.JOB_NAME} - Failed",
-                            body: "Job Failed - \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER}\n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
-                    }
 
                 always {
                     script {
@@ -61,6 +56,13 @@ environment {
                                 results: [[path: 'target/allure-results']]
                         ])
                         println('allure report created')
+
+
+  failure {
+                        mail to: 'otuslogintest@gmail.com', from: 'jenkins@example.com',
+                            subject: "Build: ${env.JOB_NAME}",
+                            body: "Job  \"${env.JOB_NAME}\" build: ${env.BUILD_NUMBER} Status: ${currentBuild.result} \n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
+                    }
 
                         // Узнаем ветку репозитория
                         def branch = sh(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
