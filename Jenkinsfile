@@ -66,12 +66,19 @@ environment {
                             results: [[path: 'target/allure-results']]
                         ])
 
+slackSend (  allure([
+                                       includeProperties: false,
+                                       jdk: '',
+                                       properties: [],
+                                       reportBuildPolicy: 'ALWAYS',
+                                       results: [[path: 'target/allure-results']]
+                                   ]))
+
                        println('allure report created')
 
                         println("message= " + message)
 
- sendNotification({
-     def emailMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}, Branch ${branch}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
+      def emailMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}, Branch ${branch}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
     emailext(
         subject: "Jenkins Report",
         body: emailMessage,
@@ -86,7 +93,7 @@ environment {
     def slackMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
 
     slackSend(color: colorCode, message: slackMessage)
- })
+
 
                     }
                 }
