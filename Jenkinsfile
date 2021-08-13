@@ -68,6 +68,8 @@ environment {
 
                        println('allure report created')
 
+                        println("message= " + message)
+
 
  sendNotification({
     def summary = junit testResults: '**/target/surefire-reports/*.xml'
