@@ -41,6 +41,7 @@ environment {
             slackSend(message: "Backup and Reports...")
                 archiveArtifacts artifacts: 'target/**/*.*', fingerprint: true
             }
+            step{
     //        post {
     //            always {
      //               script {
@@ -101,7 +102,7 @@ environment {
 
 
 //}
-
+}
             }
         }
     }
