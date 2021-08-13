@@ -45,7 +45,7 @@ environment {
             post {
                 always {
                     script {
- 
+
                         // Формирование отчета
                         allure([
                                 includeProperties: false,
@@ -81,3 +81,4 @@ environment {
         }
     }
 }
+
