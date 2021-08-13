@@ -61,8 +61,7 @@ allure([
                                 properties: [],
                                 reportBuildPolicy: 'ALWAYS',
                                 results: [[path: 'target/allure-results']]
-                        ])
-                        println('allure report created'))
+                        ]))
 
 
   failure {
