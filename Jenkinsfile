@@ -68,8 +68,6 @@ environment {
 
                        println('allure report created')
 
-                    }
-                }
 
  sendNotification({
     def summary = junit testResults: '**/target/surefire-reports/*.xml'
@@ -91,6 +89,10 @@ environment {
 
     slackSend(color: colorCode, message: slackMessage)
  })
+
+                    }
+                }
+
             }
         }
     }
